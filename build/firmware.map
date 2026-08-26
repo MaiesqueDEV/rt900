@@ -84,12 +84,10 @@ Linker script and memory map
                 0x08003000                        . = ALIGN (0x4)
  *(.isr_vector)
  .isr_vector    0x08003000       0xc0 build\Libraries/CMSIS/Device/startup_bt32f0x.o
-                0x08003000                __isr_vector
-                0x08003000                __Vectors
-                0x080030c0                __Vectors_End
+                0x08003000                g_pfnVectors
                 0x080030c0                        . = ALIGN (0x4)
 
-.text           0x080030c0    0x16f50
+.text           0x080030c0    0x16f80
                 0x080030c0                        . = ALIGN (0x4)
  *(.text)
  .text          0x080030c0      0x82c build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
@@ -1123,421 +1121,418 @@ Linker script and memory map
                 0x08018e38                Audio_PlayTask
                 0x08018eac                Audio_PlayVoiceLock
                 0x08018ec8                VoiceBroadcastWithBeepLock
- .text          0x08018ee8       0x20 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+ .text          0x08018ee8       0x54 build\Libraries/CMSIS/Device/startup_bt32f0x.o
                 0x08018ee8                Reset_Handler
-                0x08018efc                ADC1_COMP_IRQHandler
-                0x08018efc                TIM6_IRQHandler
-                0x08018efc                PVD_IRQHandler
-                0x08018efc                USART3_6IRQHandler
-                0x08018efc                I2C1_IRQHandler
-                0x08018efc                SPI1_IRQHandler
-                0x08018efc                EXTI2_3_IRQHandler
-                0x08018efc                I2C2_IRQHandler
-                0x08018efc                TIM17_IRQHandler
-                0x08018efc                RTC_IRQHandler
-                0x08018efc                TIM1_CC_IRQHandler
-                0x08018efc                TIM16_IRQHandler
-                0x08018efc                TIM3_IRQHandler
-                0x08018efc                EXTI4_15_IRQHandler
-                0x08018efc                RCC_IRQHandler
-                0x08018efc                DMA1_Channel1_IRQHandler
-                0x08018efc                TIM14_IRQHandler
-                0x08018efc                TIM7_IRQHandler
-                0x08018efc                TIM15_IRQHandler
-                0x08018efc                EXTI0_1_IRQHandler
-                0x08018efc                SPI2_IRQHandler
-                0x08018efc                ALU_IRQHandler
-                0x08018efc                TS_IRQHandler
-                0x08018efc                WWDG_IRQHandler
-                0x08018efc                TIM2_IRQHandler
-                0x08018efc                DMA1_Channel2_3_IRQHandler
-                0x08018efc                FLASH_IRQHandler
-                0x08018efc                TIM1_BRK_UP_TRG_COM_IRQHandler
- .text          0x08018f08       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
-                0x08018f08                __gnu_thumb1_case_sqi
- .text          0x08018f1c       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
-                0x08018f1c                __gnu_thumb1_case_uqi
- .text          0x08018f30       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
-                0x08018f30                __gnu_thumb1_case_shi
- .text          0x08018f44       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
-                0x08018f44                __gnu_thumb1_case_uhi
- .text          0x08018f58      0x114 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
-                0x08018f58                __aeabi_uidiv
-                0x08018f58                __udivsi3
-                0x08019064                __aeabi_uidivmod
- .text          0x0801906c      0x1d4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
-                0x0801906c                __divsi3
-                0x0801906c                __aeabi_idiv
-                0x08019238                __aeabi_idivmod
- .text          0x08019240        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
-                0x08019240                __aeabi_idiv0
-                0x08019240                __aeabi_ldiv0
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
- .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
- .text          0x08019244        0xe D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
-                0x08019244                strlen
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
- .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+                0x08018f1a                ADC1_COMP_IRQHandler
+                0x08018f1a                TIM6_IRQHandler
+                0x08018f1a                PVD_IRQHandler
+                0x08018f1a                USART3_6IRQHandler
+                0x08018f1a                I2C1_IRQHandler
+                0x08018f1a                SPI1_IRQHandler
+                0x08018f1a                EXTI2_3_IRQHandler
+                0x08018f1a                I2C2_IRQHandler
+                0x08018f1a                TIM17_IRQHandler
+                0x08018f1a                RTC_IRQHandler
+                0x08018f1a                TIM1_CC_IRQHandler
+                0x08018f1a                TIM16_IRQHandler
+                0x08018f1a                TIM3_IRQHandler
+                0x08018f1a                EXTI4_15_IRQHandler
+                0x08018f1a                RCC_IRQHandler
+                0x08018f1a                DMA1_Channel1_IRQHandler
+                0x08018f1a                Default_Handler
+                0x08018f1a                TIM14_IRQHandler
+                0x08018f1a                TIM7_IRQHandler
+                0x08018f1a                TIM15_IRQHandler
+                0x08018f1a                EXTI0_1_IRQHandler
+                0x08018f1a                SPI2_IRQHandler
+                0x08018f1a                ALU_IRQHandler
+                0x08018f1a                TS_IRQHandler
+                0x08018f1a                WWDG_IRQHandler
+                0x08018f1a                TIM2_IRQHandler
+                0x08018f1a                DMA1_Channel2_3_IRQHandler
+                0x08018f1a                FLASH_IRQHandler
+                0x08018f1a                TIM1_BRK_UP_TRG_COM_IRQHandler
+ .text          0x08018f3c       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+                0x08018f3c                __gnu_thumb1_case_sqi
+ .text          0x08018f50       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+                0x08018f50                __gnu_thumb1_case_uqi
+ .text          0x08018f64       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+                0x08018f64                __gnu_thumb1_case_shi
+ .text          0x08018f78       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+                0x08018f78                __gnu_thumb1_case_uhi
+ .text          0x08018f8c      0x114 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x08018f8c                __aeabi_uidiv
+                0x08018f8c                __udivsi3
+                0x08019098                __aeabi_uidivmod
+ .text          0x080190a0      0x1d4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+                0x080190a0                __divsi3
+                0x080190a0                __aeabi_idiv
+                0x0801926c                __aeabi_idivmod
+ .text          0x08019274        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x08019274                __aeabi_idiv0
+                0x08019274                __aeabi_ldiv0
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+ .text          0x08019278        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .text          0x08019278        0xe D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+                0x08019278                strlen
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+ .text          0x08019286        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
  *(.text*)
- *fill*         0x08019252        0x2 
- .text.startup  0x08019254       0xcc build\App/main.o
-                0x08019254                main
- .text.init_stack_heap
-                0x08019320        0x2 build\Libraries/CMSIS/Device/startup_bt32f0x.o
-                0x08019320                __User_Initial_StackHeap
- .text.atoi     0x08019322        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
-                0x08019322                atoi
- .text._atoi_r  0x0801932e        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
-                0x0801932e                _atoi_r
- .text.atol     0x0801933a        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
-                0x0801933a                atol
- .text._atol_r  0x08019346        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
-                0x08019346                _atol_r
- *fill*         0x08019352        0x2 
+ *fill*         0x08019286        0x2 
+ .text.startup  0x08019288       0xcc build\App/main.o
+                0x08019288                main
+ .text.atoi     0x08019354        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+                0x08019354                atoi
+ .text._atoi_r  0x08019360        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+                0x08019360                _atoi_r
+ .text.atol     0x0801936c        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+                0x0801936c                atol
+ .text._atol_r  0x08019378        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+                0x08019378                _atol_r
  .text._strtol_l.isra.0
-                0x08019354      0x114 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+                0x08019384      0x114 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
  .text._strtol_r
-                0x08019468        0x8 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
-                0x08019468                _strtol_r
+                0x08019498        0x8 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+                0x08019498                _strtol_r
  .text.strtol_l
-                0x08019470       0x18 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
-                0x08019470                strtol_l
- .text.strtol   0x08019488       0x18 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
-                0x08019488                strtol
+                0x080194a0       0x18 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+                0x080194a0                strtol_l
+ .text.strtol   0x080194b8       0x18 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+                0x080194b8                strtol
  .text._sprintf_r
-                0x080194a0       0x38 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
-                0x080194a0                _sprintf_r
-                0x080194a0                _siprintf_r
- .text.sprintf  0x080194d8       0x40 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
-                0x080194d8                siprintf
-                0x080194d8                sprintf
- .text.memcmp   0x08019518       0x1c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
-                0x08019518                memcmp
- .text.memset   0x08019534       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
-                0x08019534                memset
- .text.strncpy  0x08019544       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
-                0x08019544                strncpy
- .text.__errno  0x0801956c        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
-                0x0801956c                __errno
- .text.strcpy   0x08019578       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
-                0x08019578                strcpy
- .text.memcpy   0x08019588       0x12 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
-                0x08019588                memcpy
- *fill*         0x0801959a        0x2 
+                0x080194d0       0x38 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+                0x080194d0                _sprintf_r
+                0x080194d0                _siprintf_r
+ .text.sprintf  0x08019508       0x40 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+                0x08019508                siprintf
+                0x08019508                sprintf
+ .text.memcmp   0x08019548       0x1c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+                0x08019548                memcmp
+ .text.memset   0x08019564       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x08019564                memset
+ .text.strncpy  0x08019574       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+                0x08019574                strncpy
+ .text.__errno  0x0801959c        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+                0x0801959c                __errno
+ .text.strcpy   0x080195a8       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+                0x080195a8                strcpy
+ .text.memcpy   0x080195b8       0x12 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+                0x080195b8                memcpy
+ *fill*         0x080195ca        0x2 
  .text.__ssputs_r
-                0x0801959c       0xc0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
-                0x0801959c                __ssputs_r
+                0x080195cc       0xc0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x080195cc                __ssputs_r
  .text.__ssprint_r
-                0x0801965c      0x104 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
-                0x0801965c                __ssprint_r
+                0x0801968c      0x104 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x0801968c                __ssprint_r
  .text._svfprintf_r
-                0x08019760      0x1fc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
-                0x08019760                _svfiprintf_r
-                0x08019760                _svfprintf_r
+                0x08019790      0x1fc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x08019790                _svfiprintf_r
+                0x08019790                _svfprintf_r
  .text._printf_common
-                0x0801995c       0xde D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0801995c                _printf_common
- *fill*         0x08019a3a        0x2 
+                0x0801998c       0xde D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0801998c                _printf_common
+ *fill*         0x08019a6a        0x2 
  .text._printf_i
-                0x08019a3c      0x218 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x08019a3c                _printf_i
- .text.memmove  0x08019c54       0x24 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
-                0x08019c54                memmove
- .text.memchr   0x08019c78       0x16 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
-                0x08019c78                memchr
- *fill*         0x08019c8e        0x2 
- .text._free_r  0x08019c90       0x94 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
-                0x08019c90                _free_r
+                0x08019a6c      0x218 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08019a6c                _printf_i
+ .text.memmove  0x08019c84       0x24 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+                0x08019c84                memmove
+ .text.memchr   0x08019ca8       0x16 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+                0x08019ca8                memchr
+ *fill*         0x08019cbe        0x2 
+ .text._free_r  0x08019cc0       0x94 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+                0x08019cc0                _free_r
  .text.sbrk_aligned
-                0x08019d24       0x44 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                0x08019d54       0x44 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x08019d68      0x100 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
-                0x08019d68                _malloc_r
+                0x08019d98      0x100 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                0x08019d98                _malloc_r
  .text.__malloc_lock
-                0x08019e68       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
-                0x08019e68                __malloc_lock
+                0x08019e98       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+                0x08019e98                __malloc_lock
  .text.__malloc_unlock
-                0x08019e78       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
-                0x08019e78                __malloc_unlock
+                0x08019ea8       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+                0x08019ea8                __malloc_unlock
  .text._realloc_r
-                0x08019e88       0x60 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
-                0x08019e88                _realloc_r
- .text._sbrk_r  0x08019ee8       0x24 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
-                0x08019ee8                _sbrk_r
+                0x08019eb8       0x60 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+                0x08019eb8                _realloc_r
+ .text._sbrk_r  0x08019f18       0x24 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+                0x08019f18                _sbrk_r
  .text.__retarget_lock_init
-                0x08019f0c        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f0c                __retarget_lock_init
+                0x08019f3c        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f3c                __retarget_lock_init
  .text.__retarget_lock_init_recursive
-                0x08019f0e        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f0e                __retarget_lock_init_recursive
+                0x08019f3e        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f3e                __retarget_lock_init_recursive
  .text.__retarget_lock_close
-                0x08019f10        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f10                __retarget_lock_close
+                0x08019f40        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f40                __retarget_lock_close
  .text.__retarget_lock_close_recursive
-                0x08019f12        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f12                __retarget_lock_close_recursive
+                0x08019f42        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f42                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire
-                0x08019f14        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f14                __retarget_lock_acquire
+                0x08019f44        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f44                __retarget_lock_acquire
  .text.__retarget_lock_acquire_recursive
-                0x08019f16        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f16                __retarget_lock_acquire_recursive
+                0x08019f46        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f46                __retarget_lock_acquire_recursive
  .text.__retarget_lock_try_acquire
-                0x08019f18        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f18                __retarget_lock_try_acquire
+                0x08019f48        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f48                __retarget_lock_try_acquire
  .text.__retarget_lock_try_acquire_recursive
-                0x08019f1c        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f1c                __retarget_lock_try_acquire_recursive
+                0x08019f4c        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f4c                __retarget_lock_try_acquire_recursive
  .text.__retarget_lock_release
-                0x08019f20        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f20                __retarget_lock_release
+                0x08019f50        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f50                __retarget_lock_release
  .text.__retarget_lock_release_recursive
-                0x08019f22        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
-                0x08019f22                __retarget_lock_release_recursive
+                0x08019f52        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f52                __retarget_lock_release_recursive
  .text._malloc_usable_size_r
-                0x08019f24       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
-                0x08019f24                _malloc_usable_size_r
+                0x08019f54       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+                0x08019f54                _malloc_usable_size_r
  .text._reclaim_reent
-                0x08019f34       0xc0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
-                0x08019f34                _reclaim_reent
- .text._sbrk    0x08019ff4       0x1c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
-                0x08019ff4                _sbrk
+                0x08019f64       0xc0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+                0x08019f64                _reclaim_reent
+ .text._sbrk    0x0801a024       0x1c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+                0x0801a024                _sbrk
  *(.glue_7)
- .glue_7        0x0801a010        0x0 linker stubs
+ .glue_7        0x0801a040        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0801a010        0x0 linker stubs
+ .glue_7t       0x0801a040        0x0 linker stubs
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x0801a010                        . = ALIGN (0x4)
-                0x0801a010                        _etext = .
+                0x0801a040                        . = ALIGN (0x4)
+                0x0801a040                        _etext = .
 
-.vfp11_veneer   0x0801a010        0x0
- .vfp11_veneer  0x0801a010        0x0 linker stubs
+.vfp11_veneer   0x0801a040        0x0
+ .vfp11_veneer  0x0801a040        0x0 linker stubs
 
-.v4_bx          0x0801a010        0x0
- .v4_bx         0x0801a010        0x0 linker stubs
+.v4_bx          0x0801a040        0x0
+ .v4_bx         0x0801a040        0x0 linker stubs
 
-.iplt           0x0801a010        0x0
- .iplt          0x0801a010        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+.iplt           0x0801a040        0x0
+ .iplt          0x0801a040        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
 
-.rodata         0x0801a010     0x1c7c
-                0x0801a010                        . = ALIGN (0x4)
+.rodata         0x0801a040     0x1c7c
+                0x0801a040                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0801a010       0x10 build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
- .rodata        0x0801a020       0x10 build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
-                0x0801a020                AHBPrescTable
- .rodata        0x0801a030       0x65 build\App/AppDtmf.o
-                0x0801a030                SingalTone
-                0x0801a034                DTMFCODE
-                0x0801a088                TblSeprator
-                0x0801a08e                TblGroupCall
- .rodata        0x0801a095        0xa build\App/AppMain.o
-                0x0801a095                sideKeyEvent
-                0x0801a09c                DefaultSideKeyEvent
- *fill*         0x0801a09f        0x1 
- .rodata        0x0801a0a0       0x1a build\App/AppMenu.o
-                0x0801a0a0                CtcssCalcTbl
-                0x0801a0b4                CtcssCalcMul
- *fill*         0x0801a0ba        0x2 
- .rodata        0x0801a0bc       0x28 build\App/AppWeather.o
-                0x0801a0bc                TAB_WEATHER
- .rodata        0x0801a0e4        0x7 build\App/Battery.o
-                0x0801a0e4                TH_BATT_TAB
- .rodata        0x0801a0eb      0x367 build\Common/BitMap.o
-                0x0801a0eb                iconWorkWeather
-                0x0801a173                iconProgrom
-                0x0801a1f3                iconMenuSel
-                0x0801a1ff                iconArrowB
-                0x0801a206                iconArrowA
-                0x0801a20d                iconChArrow
-                0x0801a212                iconSearchFreq
-                0x0801a22e                iconScr
-                0x0801a23f                iconFhss
-                0x0801a24a                iconScan
-                0x0801a255                iconLock
-                0x0801a267                iconNarrow
-                0x0801a26e                iconUnNet
-                0x0801a273                iconReverse
-                0x0801a278                iconSub
-                0x0801a27f                iconAdd
-                0x0801a286                iconVox
-                0x0801a2b4                iconMoni
-                0x0801a2d4                iconDual
-                0x0801a2f4                iconAM
-                0x0801a301                iconCtcss
-                0x0801a312                iconDcs
-                0x0801a323                iconPowerH
-                0x0801a328                iconPowerM
-                0x0801a32d                iconPowerL
-                0x0801a332                iconSKTone
-                0x0801a342                iconBattFull
-                0x0801a372                iconBatt3
-                0x0801a3a2                iconBatt2
-                0x0801a3d2                iconBatt1
-                0x0801a402                iconBattEmpty
-                0x0801a432                iconMenuUse
- .rodata        0x0801a452        0xb build\Core/Functions.o
-                0x0801a452                VOX_TH
- *fill*         0x0801a45d        0x1 
- .rodata        0x0801a45e       0x1c build\Core/Radio.o
-                0x0801a45e                stepList
-                0x0801a470                MOD_LIST
- .rodata        0x0801a47a       0x5c build\Core/RadioTask.o
-                0x0801a47a                TxCheckFreq
-                0x0801a4c2                RssiLevel
- .rodata        0x0801a4d6       0x35 build\CPS/ProgromFlash.o
-                0x0801a4d6                linkHead
-                0x0801a4e7                strModelType
-                0x0801a4ec                updateFlag
-                0x0801a4f3                strModelType2
-                0x0801a4ff                strModelType1
- *fill*         0x0801a50b        0x1 
- .rodata        0x0801a50c       0x98 build\Driver/DevBK4819.o
-                0x0801a566                xtal26MAdjust
-                0x0801a578                afState
-                0x0801a584                tblScramble
- .rodata        0x0801a5a4      0x138 build\Driver/DevBK4819Data.o
-                0x0801a5a4                CTCS_TAB
-                0x0801a60a                DCS_TAB
- .rodata        0x0801a6dc       0x3e build\Driver/keyboard.o
-                0x0801a6dc                keyscanTab1
-                0x0801a6e6                keyscanTab2
-                0x0801a6f0                KEYBOARD_TABLE
- .rodata        0x0801a71a      0x168 build\Driver/RadioDataReset.o
-                0x0801a71a                VFO_A_DEFAULT_DATA
-                0x0801a73a                VFO_B_DEFAULT_DATA
-                0x0801a75a                RADIO_INFORM_DEFAULT
-                0x0801a79a                DTMF_INFORM_DEFAULT
-                0x0801a7aa                DTMF_CODE_DEFAULT
-                0x0801a7b2                ChFreqTbl
-                0x0801a85a                CHANNEL_128_DEFAULT_DATA
-                0x0801a86e                CHANNEL_1_DEFAULT_DATA
- .rodata        0x0801a882       0x20 build\Driver/RadioDataStorage.o
-                0x0801a882                addrMap
-                0x0801a88a                fixBand1
-                0x0801a89a                fixBand2
- *fill*         0x0801a8a2        0x2 
- .rodata        0x0801a8a4       0xa0 build\Gui/DisplayInputbox.o
-                0x0801a8a4                InputChar
-                0x0801a8b0                t9PY_index_headno
-                0x0801a8d8                t9PY_indexlen
-                0x0801a8e4                SJCharTbl
-                0x0801a914                NUMBER_SJCharTbl
- .rodata        0x0801a944        0x8 build\Gui/DisplayMain.o
-                0x0801a944                linePosX
- .rodata        0x0801a94c      0x796 build\Gui/DisplayMenu.o
-                0x0801a94c                PttIDDelay
-                0x0801a953                MenuFmList
-                0x0801a9a8                InputPosY
-                0x0801a9aa                MenuList
- .rodata        0x0801b0e2        0xd build\Gui/DisplaySearch.o
- .rodata        0x0801b0ef       0x36 build\Voice/Beep.o
-                0x0801b0ef                BEEP_time
-                0x0801b10a                BEEP_tone
- *fill*         0x0801b125        0x3 
- .rodata        0x0801b128       0xf2 build\Voice/VoiceBroadcast.o
+ .rodata        0x0801a040       0x10 build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+ .rodata        0x0801a050       0x10 build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
+                0x0801a050                AHBPrescTable
+ .rodata        0x0801a060       0x65 build\App/AppDtmf.o
+                0x0801a060                SingalTone
+                0x0801a064                DTMFCODE
+                0x0801a0b8                TblSeprator
+                0x0801a0be                TblGroupCall
+ .rodata        0x0801a0c5        0xa build\App/AppMain.o
+                0x0801a0c5                sideKeyEvent
+                0x0801a0cc                DefaultSideKeyEvent
+ *fill*         0x0801a0cf        0x1 
+ .rodata        0x0801a0d0       0x1a build\App/AppMenu.o
+                0x0801a0d0                CtcssCalcTbl
+                0x0801a0e4                CtcssCalcMul
+ *fill*         0x0801a0ea        0x2 
+ .rodata        0x0801a0ec       0x28 build\App/AppWeather.o
+                0x0801a0ec                TAB_WEATHER
+ .rodata        0x0801a114        0x7 build\App/Battery.o
+                0x0801a114                TH_BATT_TAB
+ .rodata        0x0801a11b      0x367 build\Common/BitMap.o
+                0x0801a11b                iconWorkWeather
+                0x0801a1a3                iconProgrom
+                0x0801a223                iconMenuSel
+                0x0801a22f                iconArrowB
+                0x0801a236                iconArrowA
+                0x0801a23d                iconChArrow
+                0x0801a242                iconSearchFreq
+                0x0801a25e                iconScr
+                0x0801a26f                iconFhss
+                0x0801a27a                iconScan
+                0x0801a285                iconLock
+                0x0801a297                iconNarrow
+                0x0801a29e                iconUnNet
+                0x0801a2a3                iconReverse
+                0x0801a2a8                iconSub
+                0x0801a2af                iconAdd
+                0x0801a2b6                iconVox
+                0x0801a2e4                iconMoni
+                0x0801a304                iconDual
+                0x0801a324                iconAM
+                0x0801a331                iconCtcss
+                0x0801a342                iconDcs
+                0x0801a353                iconPowerH
+                0x0801a358                iconPowerM
+                0x0801a35d                iconPowerL
+                0x0801a362                iconSKTone
+                0x0801a372                iconBattFull
+                0x0801a3a2                iconBatt3
+                0x0801a3d2                iconBatt2
+                0x0801a402                iconBatt1
+                0x0801a432                iconBattEmpty
+                0x0801a462                iconMenuUse
+ .rodata        0x0801a482        0xb build\Core/Functions.o
+                0x0801a482                VOX_TH
+ *fill*         0x0801a48d        0x1 
+ .rodata        0x0801a48e       0x1c build\Core/Radio.o
+                0x0801a48e                stepList
+                0x0801a4a0                MOD_LIST
+ .rodata        0x0801a4aa       0x5c build\Core/RadioTask.o
+                0x0801a4aa                TxCheckFreq
+                0x0801a4f2                RssiLevel
+ .rodata        0x0801a506       0x35 build\CPS/ProgromFlash.o
+                0x0801a506                linkHead
+                0x0801a517                strModelType
+                0x0801a51c                updateFlag
+                0x0801a523                strModelType2
+                0x0801a52f                strModelType1
+ *fill*         0x0801a53b        0x1 
+ .rodata        0x0801a53c       0x98 build\Driver/DevBK4819.o
+                0x0801a596                xtal26MAdjust
+                0x0801a5a8                afState
+                0x0801a5b4                tblScramble
+ .rodata        0x0801a5d4      0x138 build\Driver/DevBK4819Data.o
+                0x0801a5d4                CTCS_TAB
+                0x0801a63a                DCS_TAB
+ .rodata        0x0801a70c       0x3e build\Driver/keyboard.o
+                0x0801a70c                keyscanTab1
+                0x0801a716                keyscanTab2
+                0x0801a720                KEYBOARD_TABLE
+ .rodata        0x0801a74a      0x168 build\Driver/RadioDataReset.o
+                0x0801a74a                VFO_A_DEFAULT_DATA
+                0x0801a76a                VFO_B_DEFAULT_DATA
+                0x0801a78a                RADIO_INFORM_DEFAULT
+                0x0801a7ca                DTMF_INFORM_DEFAULT
+                0x0801a7da                DTMF_CODE_DEFAULT
+                0x0801a7e2                ChFreqTbl
+                0x0801a88a                CHANNEL_128_DEFAULT_DATA
+                0x0801a89e                CHANNEL_1_DEFAULT_DATA
+ .rodata        0x0801a8b2       0x20 build\Driver/RadioDataStorage.o
+                0x0801a8b2                addrMap
+                0x0801a8ba                fixBand1
+                0x0801a8ca                fixBand2
+ *fill*         0x0801a8d2        0x2 
+ .rodata        0x0801a8d4       0xa0 build\Gui/DisplayInputbox.o
+                0x0801a8d4                InputChar
+                0x0801a8e0                t9PY_index_headno
+                0x0801a908                t9PY_indexlen
+                0x0801a914                SJCharTbl
+                0x0801a944                NUMBER_SJCharTbl
+ .rodata        0x0801a974        0x8 build\Gui/DisplayMain.o
+                0x0801a974                linePosX
+ .rodata        0x0801a97c      0x796 build\Gui/DisplayMenu.o
+                0x0801a97c                PttIDDelay
+                0x0801a983                MenuFmList
+                0x0801a9d8                InputPosY
+                0x0801a9da                MenuList
+ .rodata        0x0801b112        0xd build\Gui/DisplaySearch.o
+ .rodata        0x0801b11f       0x36 build\Voice/Beep.o
+                0x0801b11f                BEEP_time
+                0x0801b13a                BEEP_tone
+ *fill*         0x0801b155        0x3 
+ .rodata        0x0801b158       0xf2 build\Voice/VoiceBroadcast.o
  *(.rodata*)
  .rodata.str1.1
-                0x0801b21a      0x970 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+                0x0801b24a      0x970 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
                                  0x2d (size before relaxing)
  .rodata.str1.1
-                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
+                0x0801bbba       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
  .rodata.str1.1
-                0x0801bb8a       0x30 build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
+                0x0801bbba       0x30 build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
  .rodata.str1.1
-                0x0801bb8a       0x31 build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
+                0x0801bbba       0x31 build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
  .rodata.str1.1
-                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
+                0x0801bbba       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
  .rodata.str1.1
-                0x0801bb8a       0x2f build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
+                0x0801bbba       0x2f build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
  .rodata.str1.1
-                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
+                0x0801bbba       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
  .rodata.str1.1
-                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
+                0x0801bbba       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
  .rodata.str1.1
-                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
+                0x0801bbba       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
  .rodata.str1.1
-                0x0801bb8a       0x30 build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
+                0x0801bbba       0x30 build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
  .rodata.str1.1
-                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
+                0x0801bbba       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
  .rodata.str1.1
-                0x0801bb8a       0x2f build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
+                0x0801bbba       0x2f build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
  .rodata.str1.1
-                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
+                0x0801bbba       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
  .rodata.str1.1
-                0x0801bb8a        0x7 build\App/AppDtmf.o
+                0x0801bbba        0x7 build\App/AppDtmf.o
  .rodata.str1.1
-                0x0801bb8a       0x5b build\App/AppMenu.o
+                0x0801bbba       0x5b build\App/AppMenu.o
  .rodata.str1.1
-                0x0801bb8a        0x5 build\Core/Radio.o
+                0x0801bbba        0x5 build\Core/Radio.o
  .rodata.str1.1
-                0x0801bb8a       0x10 build\Gui/DisplayFm.o
+                0x0801bbba       0x10 build\Gui/DisplayFm.o
  .rodata.str1.1
-                0x0801bb8a       0x66 build\Gui/DisplayInputbox.o
+                0x0801bbba       0x66 build\Gui/DisplayInputbox.o
  .rodata.str1.1
-                0x0801bb8a       0x5c build\Gui/DisplayMain.o
+                0x0801bbba       0x5c build\Gui/DisplayMain.o
  .rodata.str1.1
-                0x0801bb8a      0x430 build\Gui/DisplayMenu.o
+                0x0801bbba      0x430 build\Gui/DisplayMenu.o
  .rodata.str1.1
-                0x0801bb8a       0x27 build\Gui/DisplayPowerOn.o
+                0x0801bbba       0x27 build\Gui/DisplayPowerOn.o
  .rodata.str1.1
-                0x0801bb8a       0x59 build\Gui/DisplayScanQT.o
+                0x0801bbba       0x59 build\Gui/DisplayScanQT.o
  .rodata.str1.1
-                0x0801bb8a       0x32 build\Gui/DisplaySearch.o
+                0x0801bbba       0x32 build\Gui/DisplaySearch.o
  .rodata.str1.1
-                0x0801bb8a       0x10 build\Gui/DisplayWeather.o
+                0x0801bbba       0x10 build\Gui/DisplayWeather.o
  .rodata._ctype_
-                0x0801bb8a      0x101 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
-                0x0801bb8a                _ctype_
+                0x0801bbba      0x101 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+                0x0801bbba                _ctype_
  .rodata._svfprintf_r.str1.1
-                0x0801bc8b       0x11 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x0801bcbb       0x11 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x0801bc8b       0x22 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0801bfbc                        . = ALIGN (0x4)
- *fill*         0x0801bc8b        0x1 
+                0x0801bcbb       0x22 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0801bfec                        . = ALIGN (0x4)
+ *fill*         0x0801bcbb        0x1 
 
-.rel.dyn        0x0801bc8c        0x0
- .rel.iplt      0x0801bc8c        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+.rel.dyn        0x0801bcbc        0x0
+ .rel.iplt      0x0801bcbc        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
 
-.data           0x200000c0      0x3f8 load address 0x0801bc8c
+.data           0x200000c0      0x3f8 load address 0x0801bcbc
                 0x200000c0                        . = ALIGN (0x4)
                 0x200000c0                        _sdata = .
  *(.data)
@@ -1728,12 +1723,12 @@ Linker script and memory map
                 0x2000046c                _impure_data
                 0x200004b8                        . = ALIGN (0x4)
                 0x200004b8                        _edata = .
-                0x0801bc8c                        _sidata = LOADADDR (.data)
+                0x0801bcbc                        _sidata = LOADADDR (.data)
 
-.igot.plt       0x200004b8        0x0 load address 0x0801c084
+.igot.plt       0x200004b8        0x0 load address 0x0801c0b4
  .igot.plt      0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
 
-.bss            0x200004b8     0x1b64 load address 0x0801c084
+.bss            0x200004b8     0x1b64 load address 0x0801c0b4
                 0x200004b8                        . = ALIGN (0x4)
                 0x200004b8                        _sbss = .
  *(.bss)
@@ -1946,15 +1941,6 @@ Linker script and memory map
                 0x2000201c                        _ebss = .
                 0x2000201c                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-
-.stack          0x20002020     0x3000 load address 0x0801c084
- .stack         0x20002020     0x3000 build\Libraries/CMSIS/Device/startup_bt32f0x.o
-                0x20002020                __StackLimit
-                0x20005020                __StackTop
-                0x20005020                __initial_sp
-
-.heap           0x20005020        0x0 load address 0x0801c084
- .heap          0x20005020        0x0 build\Libraries/CMSIS/Device/startup_bt32f0x.o
 
 /DISCARD/
  libc.a(*)
