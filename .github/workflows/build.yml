@@ -1,0 +1,40 @@
+name: Build Radio Firmware
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install ARM Toolchain & Make
+        shell: powershell
+        run: |
+          choco install gcc-arm-embedded -y
+          choco install make -y
+
+      - name: Build Firmware Binary
+        shell: cmd
+        run: |
+          make
+          if exist .\build\firmware.bin (
+            copy /Y .\build\firmware.bin .\firmware.hex
+            .\Tools\ARCEncryptTools.exe firmware.hex QzBtDzKjYxGsWalkieTalkieBt8000OpenDate20241202
+          )
+
+      - name: Upload Compiled Firmware Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: RT900_Bintolk_Custom_Firmware
+          path: |
+            firmware.bin
+            firmware.hex
+            build/firmware.bin
