@@ -1,5 +1,6 @@
 # Target name
 TARGET = firmware
+SHELL = cmd.exe
 
 # Toolchain definitions
 CC = arm-none-eabi-gcc
