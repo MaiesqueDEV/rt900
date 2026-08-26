@@ -19,29 +19,10 @@ jobs:
           sudo apt-get install -y gcc-arm-none-eabi binutils-arm-none-eabi make
 
       - name: Build Firmware
-        run: make 2>&1 | tail -50
-
-      - name: Show build result
+        shell: bash
         run: |
-          if [ -f build/firmware.bin ]; then
-            echo "BUILD OK - firmware.bin gerado"
-            ls -lh build/firmware.bin
-          else
-            echo "BUILD FALHOU"
-            exit 1
-          fi
-
-      - name: Encrypt to BTU (via mono)
-        run: |
-          sudo apt-get install -y mono-complete
-          if [ -f build/firmware.hex ]; then
-            cp build/firmware.hex ./firmware.hex
-            mono ./Tools/ARCEncryptTools.exe ./firmware.hex QzBtDzKjYxGsWalkieTalkieBt8000OpenDate20241202 || true
-            if [ -f firmware.btu ]; then
-              cp firmware.btu RT900_MAIESQUE_CUSTOM.BTU
-              echo "BTU gerado com sucesso"
-            fi
-          fi
+          set -o pipefail
+          make 2>&1 | tee build_log.txt || (tail -80 build_log.txt && exit 1)
 
       - name: Upload Firmware Artifact
         uses: actions/upload-artifact@v4
@@ -50,5 +31,3 @@ jobs:
           path: |
             build/firmware.bin
             build/firmware.hex
-            *.BTU
-            *.btu
