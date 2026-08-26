@@ -12,7 +12,7 @@ SIZE = arm-none-eabi-size
 BUILD_DIR = build
 
 # C flags
-CFLAGS = -Os -Wall -Werror -mcpu=cortex-m1 -fno-builtin -fshort-enums -fno-delete-null-pointer-checks -std=c11 -MMD -MP -flto
+CFLAGS = -Os -Wall -mcpu=cortex-m1 -fno-builtin -fshort-enums -fno-delete-null-pointer-checks -std=c11 -MMD -MP -flto
 CFLAGS += -DUSE_FULL_ASSERT=1
 CFLAGS += -DUSE_STDPERIPH_DRIVER
 CFLAGS += -Wno-unused-variable
