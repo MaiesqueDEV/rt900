@@ -5,7 +5,7 @@ ENTRY(Reset_Handler)
 
 MEMORY
 {
-  FLASH (rx)  : ORIGIN = 0x08003000, LENGTH = 0x40000   /* 256KB - reserva bootloader */
+  FLASH (rx)  : ORIGIN = 0x08003000, LENGTH = 0x40000   /* 256KB */
   SRAM  (rwx) : ORIGIN = 0x200000C0, LENGTH = 0x8000    /* 32KB RAM */
 }
 
@@ -63,6 +63,8 @@ SECTIONS
     *(COMMON)
     . = ALIGN(4);
     _ebss = .;
+    PROVIDE(end = .);
+    PROVIDE(_end = .);
   } >SRAM
 
   /DISCARD/ :

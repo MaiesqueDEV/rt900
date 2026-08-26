@@ -1,0 +1,2447 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+                              build\App/AppMain.o (__gnu_thumb1_case_sqi)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+                              build\App/AppDtmf.o (__gnu_thumb1_case_uqi)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+                              build\Gui/DisplayMenu.o (__gnu_thumb1_case_shi)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+                              build\App/AppMenu.o (__gnu_thumb1_case_uhi)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o (__aeabi_uidiv)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+                              build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o (__aeabi_idiv)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+                              build\Core/Radio.o (atoi)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+                              build\App/AppFm.o (atol)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o) (_strtol_r)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+                              build\Gui/DisplayInputbox.o (_ctype_)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+                              build\App/AppMenu.o (sprintf)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+                              build\CPS/ProgromFlash.o (memcmp)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                              build\App/AppDtmf.o (memset)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+                              build\Gui/DisplayMenu.o (strncpy)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o) (_impure_ptr)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o) (__errno)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+                              build\Gui/DisplayMenu.o (strcpy)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+                              build\App/main.o (memcpy)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+                              build\Gui/DisplayInputbox.o (strlen)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o) (_svfprintf_r)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o) (_printf_i)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o) (memmove)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o) (memchr)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o) (_free_r)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o) (_malloc_r)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o) (__malloc_lock)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o) (_realloc_r)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o) (__retarget_lock_acquire_recursive)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o) (_malloc_usable_size_r)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o) (errno)
+D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+                              D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o) (_sbrk)
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08003000         0x00040000         xr
+SRAM             0x200000c0         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x200080c0                        _estack = (ORIGIN (SRAM) + LENGTH (SRAM))
+
+.isr_vector     0x08003000       0xc0
+                0x08003000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08003000       0xc0 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+                0x08003000                __isr_vector
+                0x08003000                __Vectors
+                0x080030c0                __Vectors_End
+                0x080030c0                        . = ALIGN (0x4)
+
+.text           0x080030c0    0x16f50
+                0x080030c0                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x080030c0      0x82c build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+                0x080030c0                ADC_DeInit
+                0x080030f0                ADC_Init
+                0x080031b0                ADC_StructInit
+                0x080031c0                ADC_Cmd
+                0x080031fc                ADC_JitterCmd
+                0x08003244                ADC_AutoPowerOffCmd
+                0x08003288                ADC_WaitModeCmd
+                0x080032d0                ADC_AnalogWatchdogCmd
+                0x08003318                ADC_AnalogWatchdogThresholdsConfig
+                0x08003360                ADC_AnalogWatchdogSingleChannelConfig
+                0x080033d8                ADC_AnalogWatchdogSingleChannelCmd
+                0x08003420                ADC_TempSensorCmd
+                0x08003458                ADC_VrefintCmd
+                0x08003490                ADC_VbatCmd
+                0x080034c8                ADC_ChannelConfig
+                0x0800351c                ADC_ContinuousModeCmd
+                0x08003568                ADC_DiscModeCmd
+                0x080035b4                ADC_OverrunModeCmd
+                0x08003600                ADC_GetCalibrationFactor
+                0x08003644                ADC_StopOfConversion
+                0x0800366c                ADC_StartOfConversion
+                0x08003694                ADC_GetConversionValue
+                0x080036b8                ADC_DMACmd
+                0x08003700                ADC_DMARequestModeConfig
+                0x08003730                ADC_ITConfig
+                0x08003788                ADC_GetFlagStatus
+                0x08003814                ADC_ClearFlag
+                0x08003854                ADC_GetITStatus
+                0x080038b0                ADC_ClearITPendingBit
+ .text          0x080038ec      0x2f8 build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
+                0x080038ec                COMP_DeInit
+                0x080038f8                COMP_Init
+                0x08003a50                COMP_StructInit
+                0x08003a62                COMP_Cmd
+                0x08003aac                COMP_GetOutputLevel
+                0x08003ae0                COMP_FilterConfig
+                0x08003b4c                COMP_VerfSelect
+                0x08003b7c                COMP_WindowCmd
+                0x08003bb4                COMP_LockConfig
+ .text          0x08003be4      0x13c build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
+                0x08003be4                CRC_DeInit
+                0x08003c04                CRC_ResetDR
+                0x08003c14                CRC_PolynomialSizeSelect
+                0x08003c48                CRC_ReverseInputDataSelect
+                0x08003c74                CRC_ReverseOutputDataCmd
+                0x08003ca4                CRC_SetInitRegister
+                0x08003cb0                CRC_SetPolynomial
+                0x08003cbc                CRC_CalcCRC
+                0x08003cc8                CRC_CalcCRC16bits
+                0x08003cd4                CRC_CalcCRC8bits
+                0x08003ce0                CRC_CalcBlockCRC
+                0x08003cfc                CRC_GetCRC
+                0x08003d08                CRC_SetIDRegister
+                0x08003d14                CRC_GetIDRegister
+ .text          0x08003d20       0xe8 build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
+                0x08003d20                DBGMCU_GetREVID
+                0x08003d2c                DBGMCU_GetDEVID
+                0x08003d3c                DBGMCU_Config
+                0x08003d80                DBGMCU_APB1PeriphConfig
+                0x08003dc4                DBGMCU_APB2PeriphConfig
+ .text          0x08003e08       0xf0 build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
+                0x08003e08                DIVQSRT_SetDivMode
+                0x08003e38                DIVQSRT_SetDividend
+                0x08003e44                DIVQSRT_SetDivisor
+                0x08003e50                DIVQSRT_GetDivres
+                0x08003e5c                DIVQSRT_GetRemainder
+                0x08003e68                DIVQSRT_SetRadicand
+                0x08003e74                DIVQSRT_GetSqrtres
+                0x08003e80                DIVQSRT_ITConfig
+                0x08003eac                DIVQSRT_GetFlagStatus
+                0x08003ed4                DIVQSRT_ClearFlag
+ .text          0x08003ef8      0x730 build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
+                0x08003ef8                DMA_DeInit
+                0x08003fa4                DMA_Init
+                0x080040d8                DMA_StructInit
+                0x080040f2                DMA_Cmd
+                0x0800415c                DMA_SetCurrDataCounter
+                0x080041a8                DMA_GetCurrDataCounter
+                0x080041f4                DMA_RemapConfig
+                0x080043e0                DMA_ITConfig
+                0x08004460                DMA_GetFlagStatus
+                0x08004518                DMA_ClearFlag
+                0x08004540                DMA_GetITStatus
+                0x080045fc                DMA_ClearITPendingBit
+ .text          0x08004628      0x30c build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
+                0x08004628                EXTI_DeInit
+                0x08004648                EXTI_Init
+                0x08004700                EXTI_StructInit
+                0x0800470e                EXTI_GenerateSWInterrupt
+                0x0800473c                EXTI_GetFlagStatus
+                0x08004810                EXTI_ClearFlag
+                0x08004838                EXTI_GetITStatus
+                0x0800490c                EXTI_ClearITPendingBit
+ .text          0x08004934      0x6d0 build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
+                0x08004934                FLASH_SetLatency
+                0x0800495c                FLASH_PrefetchBufferCmd
+                0x0800498c                FLASH_GetPrefetchBufferStatus
+                0x0800499c                FLASH_Unlock
+                0x080049bc                FLASH_Lock
+                0x080049cc                FLASH_OB_Unlock
+                0x080049ec                FLASH_OB_Lock
+                0x08004a00                FLASH_OB_Launch
+                0x08004a14                FLASH_OB_GetUser
+                0x08004a24                FLASH_OB_GetWRP
+                0x08004a30                FLASH_OB_GetRDP
+                0x08004a44                FLASH_ITConfig
+                0x08004a90                FLASH_GetFlagStatus
+                0x08004acc                FLASH_ClearFlag
+                0x08004af8                FLASH_GetStatus
+                0x08004b1c                FLASH_WaitForLastOperation
+                0x08004b40                FLASH_ErasePage
+                0x08004b94                FLASH_EraseAllPages
+                0x08004bc8                FLASH_ProgramWord
+                0x08004c34                FLASH_ProgramHalfWord
+                0x08004c84                FLASH_OB_Erase
+                0x08004cf8                FLASH_OB_EnableWRP
+                0x08004d70                FLASH_OB_RDPConfig
+                0x08004de4                FLASH_OB_UserConfig
+                0x08004e68                FLASH_OB_BOOTConfig
+                0x08004ec0                FLASH_OB_VDDAConfig
+                0x08004f18                FLASH_OB_SRAMParityConfig
+                0x08004f70                FLASH_OB_WriteUser
+                0x08004fb0                FLASH_OB_ProgramData
+ .text          0x08005004      0x66c build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
+                0x08005004                GPIO_DeInit
+                0x080050a4                GPIO_Init
+                0x080051a0                GPIO_StructInit
+                0x080051b0                GPIO_PinLockConfig
+                0x08005200                GPIO_ReadInputDataBit
+                0x080052d0                GPIO_ReadInputData
+                0x08005318                GPIO_ReadOutputDataBit
+                0x080053e8                GPIO_ReadOutputData
+                0x08005430                GPIO_SetBits
+                0x08005488                GPIO_ResetBits
+                0x080054e0                GPIO_WriteBit
+                0x080055c4                GPIO_Write
+                0x0800560c                GPIO_PinAFConfig
+ .text          0x08005670      0xe24 build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
+                0x08005670                I2C_DeInit
+                0x080056bc                I2C_Init
+                0x080057bc                I2C_StructInit
+                0x080057d2                I2C_Cmd
+                0x0800581c                I2C_SoftwareResetCmd
+                0x08005854                I2C_ITConfig
+                0x080058b4                I2C_StretchClockCmd
+                0x08005908                I2C_StopModeCmd
+                0x08005950                I2C_DualAddressCmd
+                0x080059a4                I2C_OwnAddress2Config
+                0x08005a08                I2C_GeneralCallCmd
+                0x08005a5c                I2C_SlaveByteControlCmd
+                0x08005ab0                I2C_SlaveAddressConfig
+                0x08005afc                I2C_10BitAddressingModeCmd
+                0x08005b50                I2C_AutoEndCmd
+                0x08005ba4                I2C_ReloadCmd
+                0x08005bfc                I2C_NumberOfBytesConfig
+                0x08005c38                I2C_MasterRequestConfig
+                0x08005c90                I2C_GenerateSTART
+                0x08005ce4                I2C_GenerateSTOP
+                0x08005d3c                I2C_10BitAddressHeaderCmd
+                0x08005d90                I2C_AcknowledgeConfig
+                0x08005de8                I2C_GetAddressMatched
+                0x08005e18                I2C_GetTransferDirection
+                0x08005e4c                I2C_TransferHandling
+                0x08005ef0                I2C_SMBusAlertCmd
+                0x08005f3c                I2C_ClockTimeoutCmd
+                0x08005f88                I2C_ExtendedClockTimeoutCmd
+                0x08005fd0                I2C_IdleClockTimeoutCmd
+                0x0800601c                I2C_TimeoutAConfig
+                0x08006060                I2C_TimeoutBConfig
+                0x080060ac                I2C_CalculatePEC
+                0x080060f8                I2C_PECRequestCmd
+                0x08006144                I2C_GetPEC
+                0x08006168                I2C_ReadRegister
+                0x080061d8                I2C_SendData
+                0x08006208                I2C_ReceiveData
+                0x08006238                I2C_DMACmd
+                0x0800629c                I2C_GetFlagStatus
+                0x08006348                I2C_ClearFlag
+                0x08006390                I2C_GetITStatus
+                0x0800644c                I2C_ClearITPendingBit
+ .text          0x08006494       0xdc build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
+                0x08006494                IWDG_WriteAccessCmd
+                0x080064bc                IWDG_SetPrescaler
+                0x080064dc                IWDG_SetReload
+                0x08006500                IWDG_ReloadCounter
+                0x08006510                IWDG_SetWindowValue
+                0x08006534                IWDG_Enable
+                0x08006544                IWDG_GetFlagStatus
+ .text          0x08006570       0xe8 build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
+                0x08006570                NVIC_Init
+                0x080065e0                NVIC_SystemLPConfig
+                0x08006628                SysTick_CLKSourceConfig
+ .text          0x08006658       0xc8 build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
+                0x08006658                OPA_DeInit
+                0x0800668c                OPA_SetMode
+                0x080066dc                OPA_Enable
+ .text          0x08006720      0x21c build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
+                0x08006720                PWR_DeInit
+                0x08006738                PWR_BackupAccessCmd
+                0x0800676c                PWR_PVDLevelConfig
+                0x0800679c                PWR_PVDCmd
+                0x080067cc                PWR_WakeUpPinCmd
+                0x0800682c                PWR_EnterSleepMode
+                0x08006860                PWR_EnterSTOPMode
+                0x080068b8                PWR_EnterSTANDBYMode
+                0x080068e0                PWR_GetFlagStatus
+                0x08006914                PWR_ClearFlag
+ .text          0x0800693c      0x9dc build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+                0x0800693c                RCC_DeInit
+                0x0800699c                RCC_HSEConfig
+                0x080069c4                RCC_AdjustHSICalibrationValue
+                0x080069ec                RCC_HSICmd
+                0x08006a1c                RCC_AdjustHSI14CalibrationValue
+                0x08006a48                RCC_HSI14Cmd
+                0x08006a78                RCC_HSI14ADCRequestCmd
+                0x08006aa8                RCC_LSEConfig
+                0x08006ae0                RCC_LSEDriveConfig
+                0x08006b18                RCC_LSICmd
+                0x08006b48                RCC_PLLConfig
+                0x08006bcc                RCC_PLLCmd
+                0x08006c04                RCC_PREDIV1Config
+                0x08006c2c                RCC_ClockSecuritySystemCmd
+                0x08006c64                RCC_MCOConfig
+                0x08006cc0                RCC_SYSCLKConfig
+                0x08006ce8                RCC_GetSYSCLKSource
+                0x08006cf8                RCC_HCLKConfig
+                0x08006d4c                RCC_PCLKConfig
+                0x08006d98                RCC_ADCCLKConfig
+                0x08006df0                RCC_CECCLKConfig
+                0x08006e24                RCC_I2CCLKConfig
+                0x08006e58                RCC_USARTCLKConfig
+                0x08006e88                RCC_GetClocksFreq
+                0x08006f70                RCC_RTCCLKConfig
+                0x08006fac                RCC_RTCCLKCmd
+                0x08006fe4                RCC_BackupResetCmd
+                0x0800701c                RCC_AHBPeriphClockCmd
+                0x08007068                RCC_APB2PeriphClockCmd
+                0x080070a8                RCC_APB1PeriphClockCmd
+                0x080070e8                RCC_AHBPeriphResetCmd
+                0x08007134                RCC_APB2PeriphResetCmd
+                0x08007174                RCC_APB1PeriphResetCmd
+                0x080071b4                RCC_ITConfig
+                0x080071f8                RCC_GetFlagStatus
+                0x08007264                RCC_WaitForHSEStartUp
+                0x08007292                RCC_ClearFlag
+                0x080072a4                RCC_GetITStatus
+                0x080072f0                RCC_ClearITPendingBit
+ .text          0x08007318     0x11bc build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
+                0x08007342                RTC_StructInit
+                0x08007350                RTC_WriteProtectionCmd
+                0x0800737c                RTC_EnterInitMode
+                0x080073b8                RTC_ExitInitMode
+                0x080073c8                RTC_Init
+                0x08007444                RTC_WaitForSynchro
+                0x08007490                RTC_DeInit
+                0x080074dc                RTC_RefClockCmd
+                0x08007528                RTC_BypassShadowCmd
+                0x08007568                RTC_SetTime
+                0x080076c4                RTC_TimeStructInit
+                0x080076d0                RTC_GetTime
+                0x08007730                RTC_GetSubSecond
+                0x0800773c                RTC_SetDate
+                0x08007860                RTC_DateStructInit
+                0x0800786e                RTC_GetDate
+                0x080078c8                RTC_SetAlarm
+                0x08007ac4                RTC_AlarmStructInit
+                0x08007ad2                RTC_GetAlarm
+                0x08007b64                RTC_AlarmCmd
+                0x08007bdc                RTC_AlarmSubSecondConfig
+                0x08007c38                RTC_GetAlarmSubSecond
+                0x08007c48                RTC_WakeUpClockConfig
+                0x08007c88                RTC_SetWakeUpCounter
+                0x08007cbc                RTC_GetWakeUpCounter
+                0x08007cc8                RTC_WakeUpCmd
+                0x08007d38                RTC_DayLightSavingConfig
+                0x08007d98                RTC_GetStoreOperation
+                0x08007da8                RTC_OutputConfig
+                0x08007e08                RTC_CalibOutputCmd
+                0x08007e50                RTC_CalibOutputConfig
+                0x08007e90                RTC_SmoothCalibConfig
+                0x08007f24                RTC_TimeStampCmd
+                0x08007f80                RTC_GetTimeStamp
+                0x08008024                RTC_GetTimeStampSubSecond
+                0x08008030                RTC_TamperTriggerConfig
+                0x08008080                RTC_TamperCmd
+                0x080080cc                RTC_TamperFilterConfig
+                0x08008100                RTC_TamperSamplingFreqConfig
+                0x08008144                RTC_TamperPinsPrechargeDuration
+                0x08008178                RTC_TimeStampOnTamperDetectionCmd
+                0x080081ac                RTC_TamperPullUpCmd
+                0x080081e4                RTC_WriteBackupRegister
+                0x08008218                RTC_ReadBackupRegister
+                0x0800824c                RTC_OutputTypeConfig
+                0x08008280                RTC_SynchroShiftConfig
+                0x080082f8                RTC_ITConfig
+                0x08008364                RTC_GetFlagStatus
+                0x080083f0                RTC_ClearFlag
+                0x0800842c                RTC_GetITStatus
+                0x08008498                RTC_ClearITPendingBit
+ .text          0x080084d4      0xa5c build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
+                0x080084d4                SPI_I2S_DeInit
+                0x08008524                SPI_StructInit
+                0x08008540                SPI_Init
+                0x080086c0                I2S_StructInit
+                0x080086ce                I2S_Init
+                0x08008804                SPI_Cmd
+                0x08008850                SPI_TIModeCmd
+                0x08008894                I2S_Cmd
+                0x080088dc                SPI_DataSizeConfig
+                0x08008968                SPI_RxFIFOThresholdConfig
+                0x080089b4                SPI_BiDirectionalLineConfig
+                0x08008a10                SPI_NSSInternalSoftwareConfig
+                0x08008a70                SPI_SSOutputCmd
+                0x08008ac0                SPI_NSSPulseModeCmd
+                0x08008b10                SPI_SendData8
+                0x08008b40                SPI_I2S_SendData16
+                0x08008b70                SPI_ReceiveData8
+                0x08008b76                SPI_I2S_ReceiveData16
+                0x08008b7c                SPI_CRCLengthConfig
+                0x08008bcc                SPI_CalculateCRC
+                0x08008c20                SPI_TransmitCRC
+                0x08008c54                SPI_GetCRC
+                0x08008c9c                SPI_GetCRCPolynomial
+                0x08008ccc                SPI_I2S_DMACmd
+                0x08008d28                SPI_LastDMATransferCmd
+                0x08008d78                SPI_I2S_ITConfig
+                0x08008de8                SPI_GetTransmissionFIFOStatus
+                0x08008df2                SPI_GetReceptionFIFOStatus
+                0x08008dfc                SPI_I2S_GetFlagStatus
+                0x08008e78                SPI_I2S_ClearFlag
+                0x08008ebc                SPI_I2S_GetITStatus
+ .text          0x08008f30      0x1ec build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
+                0x08008f30                SYSCFG_DeInit
+                0x08008f54                SYSCFG_MemoryRemapConfig
+                0x08008f80                SYSCFG_DMAChannelRemapConfig
+                0x08008fe0                SYSCFG_I2CFastModePlusConfig
+                0x08009054                SYSCFG_EXTILineConfig
+                0x080090a4                SYSCFG_BreakConfig
+                0x080090d0                SYSCFG_GetFlagStatus
+                0x080090f4                SYSCFG_ClearFlag
+ .text          0x0800911c     0x2c3c build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
+                0x08009178                TIM_DeInit
+                0x0800927c                TIM_TimeBaseInit
+                0x08009380                TIM_TimeBaseStructInit
+                0x08009390                TIM_PrescalerConfig
+                0x08009410                TIM_CounterModeConfig
+                0x08009468                TIM_SetCounter
+                0x080094d8                TIM_SetAutoreload
+                0x08009548                TIM_GetCounter
+                0x080095b8                TIM_GetPrescaler
+                0x08009628                TIM_UpdateDisableConfig
+                0x080096b8                TIM_UpdateRequestConfig
+                0x08009748                TIM_ARRPreloadConfig
+                0x080097d8                TIM_SelectOnePulseMode
+                0x08009868                TIM_SetClockDivision
+                0x080098f0                TIM_Cmd
+                0x08009980                TIM_BDTRConfig
+                0x08009a64                TIM_BDTRStructInit
+                0x08009a76                TIM_CtrlPWMOutputs
+                0x08009adc                TIM_OC1Init
+                0x08009c3c                TIM_OC2Init
+                0x08009da0                TIM_OC3Init
+                0x08009edc                TIM_OC4Init
+                0x08009fc8                TIM_OCStructInit
+                0x08009fd6                TIM_SelectOCxM
+                0x0800a094                TIM_SetCompare1
+                0x0800a0f4                TIM_SetCompare2
+                0x0800a134                TIM_SetCompare3
+                0x0800a16c                TIM_SetCompare4
+                0x0800a1a4                TIM_ForcedOC1Config
+                0x0800a220                TIM_ForcedOC2Config
+                0x0800a288                TIM_ForcedOC3Config
+                0x0800a2dc                TIM_ForcedOC4Config
+                0x0800a338                TIM_CCPreloadControl
+                0x0800a39c                TIM_OC1PreloadConfig
+                0x0800a414                TIM_OC2PreloadConfig
+                0x0800a478                TIM_OC3PreloadConfig
+                0x0800a4cc                TIM_OC4PreloadConfig
+                0x0800a528                TIM_OC1FastConfig
+                0x0800a5a4                TIM_OC2FastConfig
+                0x0800a608                TIM_OC3FastConfig
+                0x0800a65c                TIM_OC4FastConfig
+                0x0800a6b4                TIM_ClearOC1Ref
+                0x0800a730                TIM_ClearOC2Ref
+                0x0800a790                TIM_ClearOC3Ref
+                0x0800a7e4                TIM_ClearOC4Ref
+                0x0800a838                TIM_OC1PolarityConfig
+                0x0800a8b4                TIM_OC1NPolarityConfig
+                0x0800a914                TIM_OC2PolarityConfig
+                0x0800a974                TIM_OC2NPolarityConfig
+                0x0800a9b8                TIM_OC3PolarityConfig
+                0x0800aa14                TIM_OC3NPolarityConfig
+                0x0800aa5c                TIM_OC4PolarityConfig
+                0x0800aab8                TIM_SelectOCREFClear
+                0x0800ab10                TIM_CCxCmd
+                0x0800ab90                TIM_CCxNCmd
+                0x0800ac14                TIM_SelectCOM
+                0x0800ac78                TIM_ICStructInit
+                0x0800ac88                TIM_GetCapture1
+                0x0800ace4                TIM_GetCapture2
+                0x0800ad24                TIM_GetCapture3
+                0x0800ad58                TIM_GetCapture4
+                0x0800ad8c                TIM_SetIC1Prescaler
+                0x0800ae14                TIM_SetIC2Prescaler
+                0x0800ae84                TIM_PWMIConfig
+                0x0800af24                TIM_SetIC3Prescaler
+                0x0800af84                TIM_SetIC4Prescaler
+                0x0800afec                TIM_ICInit
+                0x0800b220                TIM_ITConfig
+                0x0800b2c4                TIM_GenerateEvent
+                0x0800b348                TIM_GetFlagStatus
+                0x0800b41c                TIM_ClearFlag
+                0x0800b4ac                TIM_GetITStatus
+                0x0800b56c                TIM_ClearITPendingBit
+                0x0800b5f4                TIM_DMAConfig
+                0x0800b6a8                TIM_DMACmd
+                0x0800b74c                TIM_SelectCCDMA
+                0x0800b7c4                TIM_InternalClockConfig
+                0x0800b808                TIM_SelectInputTrigger
+                0x0800b868                TIM_ITRxExternalClockConfig
+                0x0800b8cc                TIM_TIxExternalClockConfig
+                0x0800b960                TIM_SelectOutputTrigger
+                0x0800b9d8                TIM_SelectSlaveMode
+                0x0800ba38                TIM_SelectMasterSlaveMode
+                0x0800ba98                TIM_ETRConfig
+                0x0800bb18                TIM_ETRClockMode1Config
+                0x0800bb9c                TIM_ETRClockMode2Config
+                0x0800bc20                TIM_EncoderInterfaceConfig
+                0x0800bccc                TIM_SelectHallSensor
+                0x0800bd24                TIM_RemapConfig
+ .text          0x0800bd58     0x16fc build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
+                0x0800bd58                USART_DeInit
+                0x0800be14                USART_Init
+                0x0800bf6c                USART_StructInit
+                0x0800bf82                USART_ClockInit
+                0x0800c048                USART_ClockStructInit
+                0x0800c054                USART_Cmd
+                0x0800c0c8                USART_DirectionModeCmd
+                0x0800c150                USART_OverSampling8Cmd
+                0x0800c1cc                USART_OneBitMethodCmd
+                0x0800c248                USART_MSBFirstCmd
+                0x0800c2c4                USART_DataInvCmd
+                0x0800c340                USART_InvPinCmd
+                0x0800c3cc                USART_SWAPPinCmd
+                0x0800c44c                USART_ReceiverTimeOutCmd
+                0x0800c498                USART_SetReceiverTimeOut
+                0x0800c4dc                USART_SetPrescaler
+                0x0800c50c                USART_STOPModeCmd
+                0x0800c554                USART_StopModeWakeUpSourceConfig
+                0x0800c5a4                USART_AutoBaudRateCmd
+                0x0800c5f0                USART_AutoBaudRateConfig
+                0x0800c638                USART_SendData
+                0x0800c6a8                USART_ReceiveData
+                0x0800c700                USART_SetAddress
+                0x0800c764                USART_MuteModeCmd
+                0x0800c7e0                USART_MuteModeWakeUpConfig
+                0x0800c854                USART_AddressDetectionConfig
+                0x0800c8cc                USART_LINBreakDetectLengthConfig
+                0x0800c910                USART_LINCmd
+                0x0800c95c                USART_HalfDuplexCmd
+                0x0800c9d4                USART_SetGuardTime
+                0x0800ca04                USART_SmartCardCmd
+                0x0800ca4c                USART_SmartCardNACKCmd
+                0x0800ca94                USART_SetAutoRetryCount
+                0x0800cadc                USART_SetBlockLength
+                0x0800cb10                USART_IrDAConfig
+                0x0800cb54                USART_IrDACmd
+                0x0800cb9c                USART_DECmd
+                0x0800cc1c                USART_DEPolarityConfig
+                0x0800cc94                USART_SetDEAssertionTime
+                0x0800cd0c                USART_SetDEDeassertionTime
+                0x0800cd84                USART_DMACmd
+                0x0800ce10                USART_DMAReceptionErrorConfig
+                0x0800ce84                USART_ITConfig
+                0x0800cf90                USART_RequestCmd
+                0x0800d028                USART_OverrunDetectionConfig
+                0x0800d0a0                USART_GetFlagStatus
+                0x0800d1ac                USART_ClearFlag
+                0x0800d25c                USART_GetITStatus
+                0x0800d378                USART_ClearITPendingBit
+ .text          0x0800d454       0xfc build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
+                0x0800d454                WWDG_DeInit
+                0x0800d46c                WWDG_SetPrescaler
+                0x0800d498                WWDG_SetWindowValue
+                0x0800d4d0                WWDG_EnableIT
+                0x0800d4e4                WWDG_SetCounter
+                0x0800d50c                WWDG_Enable
+                0x0800d534                WWDG_GetFlagStatus
+                0x0800d544                WWDG_ClearFlag
+ .text          0x0800d550      0x118 build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
+                0x0800d550                SystemInit
+                0x0800d608                SystemCoreClockUpdate
+ .text          0x0800d668        0xa build\App/main.o
+                0x0800d668                BeepPowerOn
+ *fill*         0x0800d672        0x2 
+ .text          0x0800d674      0x280 build\App/AppAlarm.o
+                0x0800d674                CheckAlarmDelay
+                0x0800d69c                AlarmOut
+                0x0800d6dc                SetAlarmCode
+                0x0800d714                AlarmTask
+                0x0800d7fc                AlarmFuncSwitch
+ .text          0x0800d8f4      0x534 build\App/AppDtmf.o
+                0x0800d8f4                EnterDtmfEditMode
+                0x0800d930                InputDtmfCode
+                0x0800d960                GetDtmfEditCode
+                0x0800d9d4                ResetDtmfEditCode
+                0x0800d9e0                ExitDtmfEditMode
+                0x0800da00                KeyProcess_DtmfInput
+                0x0800da74                DtmfInfoInit
+                0x0800daec                DtmfSendKeypadCode
+                0x0800db4c                DtmfSendTxOver
+                0x0800dba4                DtmfSendTask
+                0x0800dc94                DtmfSendCodeOn
+                0x0800de14                DtmfReceiveSetup
+                0x0800de16                ClearDisANIFlag
+                0x0800de18                DtmfClrMatchTimer
+                0x0800de1a                Task_HangUp
+                0x0800de1c                DtmfRstMatchTimer
+                0x0800de1e                DtmfGetMatchStatue
+                0x0800de22                DtmfAnalyseFunc
+                0x0800de24                DtmfReceiveTask
+ .text          0x0800de28      0x808 build\App/AppFm.o
+                0x0800de28                CheckFmVfoMode
+                0x0800de38                FmBandConfig
+                0x0800de6c                ResumeFmMode
+                0x0800dedc                CheckFmChActive
+                0x0800def8                SeekActiveFmChDown
+                0x0800df2c                SeekActiveFmChUp
+                0x0800df60                FmCheckChannelActive
+                0x0800dfd8                FmSwitchChVfo
+                0x0800e040                FmChNumTypeIn
+                0x0800e100                FmFreqAdd
+                0x0800e16c                FmFreqSub
+                0x0800e1d8                FmAutoSeek
+                0x0800e1f4                FmBandSwitch
+                0x0800e230                FmFreqTypeIn
+                0x0800e2f4                FmCheckTimeOut
+                0x0800e360                EnterFmMode
+                0x0800e40c                FMSwitchExit
+                0x0800e41c                ExitFmMode
+                0x0800e45c                FmEnterSleepMode
+                0x0800e490                FmTaskFunc
+                0x0800e51c                Fm_KeyDigitalInput
+                0x0800e53c                KeyProcess_Fm
+ .text          0x0800e630      0x30c build\App/AppMain.o
+                0x0800e630                Sidekey_GetRemapEvent
+                0x0800e670                SideKey_Process
+                0x0800e6f4                Main_KeyDigitalInput
+                0x0800e73c                Main_KeyUpFun
+                0x0800e7a8                Main_KeyDownFun
+                0x0800e818                Main_Backspace
+                0x0800e88c                KeyProcess_Main
+ .text          0x0800e93c     0x1590 build\App/AppMenu.o
+                0x0800e93c                ResetMenuExitTime
+                0x0800e960                loadCtcssVal
+                0x0800e99c                Menu_GetSubItemPara
+                0x0800eca0                Menu_GetFmSubItemPara
+                0x0800ece0                Menu_EnterMode
+                0x0800ed24                Menu_ExitMode
+                0x0800ed90                Menu_Up
+                0x0800ede4                Menu_Down
+                0x0800ee34                CtcssTypeIn
+                0x0800eebc                FreqTypeIn
+                0x0800ef3c                ChanlFreqTypeIn
+                0x0800efbc                ScanRangeTypeIn
+                0x0800f024                LongIntoI2C
+                0x0800f068                SaveRadioFreq
+                0x0800f0e0                SaveRadioCtcss
+                0x0800f16c                SaveRadioDcs
+                0x0800f1e8                OffectFrequency2Buf
+                0x0800f214                SaveChMemory
+                0x0800f450                SaveChDelete
+                0x0800f544                EnterResetMode
+                0x0800f644                Menu_SaveSelectItem
+                0x0800fa0c                Menu_SaveFmSelectItem
+                0x0800fa48                Menu_PriorLevel
+                0x0800fa98                Menu_EnterNextLevel
+                0x0800fb68                CheckExitMenu
+                0x0800fb98                Menu_KeyDigitalInput
+                0x0800fcc0                DcsSwitchPolarity
+                0x0800fcf8                EnterFMMenu
+                0x0800fd38                FastEnterChMemMenu
+                0x0800fd74                checkInputCharMode
+                0x0800fd90                KeyProcess_Menu
+ .text          0x0800fecc       0x98 build\App/AppMoni.o
+                0x0800fecc                EnterMoniMode
+                0x0800ff14                ExitMoniMode
+                0x0800ff4c                KeyProcess_Moni
+ .text          0x0800ff64      0x294 build\App/AppScan.o
+                0x0800ff64                CheckInputScanRange
+                0x0800ffdc                ScanNextChannel
+                0x08010048                ScanStart
+                0x080100ac                ScanOff
+                0x080100d8                ScanTask
+                0x0801018c                KeyProcess_Scan
+ .text          0x080101f8      0x2a4 build\App/AppScanQT.o
+                0x080101f8                EnterRemoteScanQTMode
+                0x08010228                ExitRemoteScanQTMode
+                0x08010244                TaskRemoteScanQT
+                0x0801032c                SaveQTScanResult
+                0x08010438                KeyProcess_ScanQt
+ .text          0x0801049c      0x500 build\App/AppSearch.o
+                0x0801049c                EnterSearchFreqMode
+                0x080104f8                SearchFreqModeBandSwitch
+                0x0801053c                ExitSearchFreqMode
+                0x08010578                CheckIsStandardDCS
+                0x080105d0                CheckIsStandardCTCSS
+                0x08010608                SearchFreqTask
+                0x0801091c                KeyProcess_Search
+ .text          0x0801099c      0x158 build\App/AppTask.o
+                0x0801099c                App_10msTask
+                0x080109bc                App_50msTask
+                0x080109dc                App_100msTask
+                0x08010a08                App_500msTask
+                0x08010a24                AppRunTask
+ .text          0x08010af4      0x2ec build\App/AppWeather.o
+                0x08010af4                Weather_GetChFreq
+                0x08010b00                WeatherInit
+                0x08010b28                WeatherChannelUp
+                0x08010b58                WeatherChannelDown
+                0x08010b94                EnterWeatherMode
+                0x08010bdc                ExitWeatherMode
+                0x08010c10                WeatherScanStart
+                0x08010c34                WeatherScanOff
+                0x08010c58                WeatherScanNextChannel
+                0x08010c88                WeatherScanTask
+                0x08010d38                KeyProcess_Weather
+ .text          0x08010de0      0x250 build\App/Battery.o
+                0x08010de0                CheckBatteryCanTx
+                0x08010df4                DisplayBattaryFlag
+                0x08010e38                BatteryLowFlash
+                0x08010e80                BatteryGetLevel
+                0x08010ed0                BatteryInitLevel
+                0x08010ef8                ResetTimeKeyLockAndPowerSave
+                0x08010f28                BatteryCheckTask
+                0x08010fac                CheckPowerBusy
+                0x08010fb8                PowerSaveTask
+ .text          0x08011030      0x108 build\App/DualStandby.o
+                0x08011030                DualChannelSwitch2Main
+                0x08011060                DualStandbyWorkON
+                0x08011084                DualStandbyWorkOFF
+                0x080110c0                ResetDualRxTime
+                0x080110cc                DualStandbyTask
+ .text          0x08011138      0x3e4 build\BSP/Board.o
+                0x08011138                SysTick_Init
+                0x0801117c                Gpio_Init
+                0x080112a8                GpioModeSwitch
+                0x080112d0                NVIC_Configuration
+                0x080112f2                Usart_Init
+                0x08011374                uartSendChar
+                0x08011388                SPI2_Init
+                0x080113d4                UserADC_GetValOfBatt
+                0x08011410                UserADC_GetValOfVox
+                0x0801144c                UserADC_Init
+                0x080114b0                USART1_Handler
+                0x080114d4                DMA1Int_Handler
+                0x080114f0                Board_Init
+ .text          0x0801151c      0x260 build\BSP/BoardFun.o
+                0x0801151c                CheckPowerOff
+                0x080115c8                LcdBackLightSwitch
+                0x080115dc                LedTxSwitch
+                0x08011610                LedRxSwitch
+                0x0801163c                LightSwitch
+                0x08011668                LightFlashTask
+                0x08011688                LCD_BackLightSetOn
+                0x080116c4                LCD_CheckBackLight
+                0x080116f0                RF_PowerSet
+                0x08011766                SpeakerSwitch
+ .text          0x0801177c       0x3c build\BSP/bt32f0x_it.o
+                0x0801177c                NMI_Handler
+                0x0801177e                HardFault_Handler
+                0x08011798                SVC_Handler
+                0x0801179a                PendSV_Handler
+                0x0801179c                SysTick_Handler
+                0x080117a4                USART1_IRQHandler
+                0x080117ac                USART2_IRQHandler
+                0x080117ae                DMA1_Channel4_5_IRQHandler
+ .text          0x080117b8        0x0 build\Common/BitMap.o
+ .text          0x080117b8        0x4 build\Common/Delay.o
+                0x080117b8                DelayUs
+                0x080117ba                DelayMs
+ .text          0x080117bc        0x0 build\Common/Globe.o
+ .text          0x080117bc        0x2 build\Common/assert_failed_stub.o
+                0x080117bc                assert_failed
+ *fill*         0x080117be        0x2 
+ .text          0x080117c0      0x318 build\Core/Functions.o
+                0x080117c0                ResetInputBuf
+                0x080117dc                ExitAllFunction
+                0x08011814                CheckAutoKeyLockTask
+                0x08011878                KeyLockFunSwitch
+                0x080118a0                DualModeFastSwitch
+                0x080118c8                ChDisModeFastSwitch
+                0x08011924                VoxCheckTask
+                0x080119c8                Radio_TxPowerSWitch
+                0x08011a14                Radio_TxKeyTone
+ .text          0x08011ad8      0xb44 build\Core/Radio.o
+                0x08011ad8                RadioConfig_Init
+                0x08011af0                ListFlagSet
+                0x08011b12                GetCTSDCSType
+                0x08011b2a                CheckFreqInRange
+                0x08011b98                CheckChannelActive
+                0x08011bc0                SeekActiveChannel_Up
+                0x08011c00                SeekActiveChannel_Down
+                0x08011c44                ChannelCheckActiveAll
+                0x08011d74                VfoFrequency2Buf
+                0x08011da0                GetCurWorkBand
+                0x08011dc4                CalculateVfoTxFreq
+                0x08011e00                VfoFreqSave
+                0x08011e38                Radio_SwitchAOrB
+                0x08011e70                Radio_ReverseOff
+                0x08011e98                VfoFreqUp
+                0x08011f44                VfoFreqDown
+                0x08012008                VfoFreqTypeIn
+                0x080120d0                Radio_ReverseSwitch
+                0x0801215c                VfoFreqCalculate
+                0x08012188                VfoOffsetCalculate
+                0x080121a2                ChannleVfoDataInit
+                0x08012420                ChannelNumChangeRead
+                0x0801246c                ChannelUp
+                0x080124ac                ChannelDown
+                0x080124ec                ChannelNumTypeIn
+                0x0801256c                Radio_SwitchChannelOrVfo
+                0x080125e8                RadioVfoInfo_Init
+ .text          0x0801261c      0x8bc build\Core/RadioTask.o
+                0x0801261c                GetHardWorkBand
+                0x0801265c                CheckCanTxOverRange
+                0x080126bc                CheckFreqInTxFreqRange
+                0x0801278c                WaitPttRelease
+                0x080127fc                Radio_EnterTxMode
+                0x080128ac                RxReset
+                0x080128d4                RfOff
+                0x080128fc                RF_TxEnd
+                0x08012960                RF_TxRoger
+                0x0801298c                TotTimeWarning
+                0x08012a10                RF_TxTask
+                0x08012b0c                CalculateSqlLevel
+                0x08012b8c                RF_RxEnd
+                0x08012bd8                Rfic_CheckCtsState
+                0x08012c28                RF_RxTask
+                0x08012eb8                RF_Task
+ .text          0x08012ed8      0x6b0 build\CPS/ProgromFlash.o
+                0x08012ef0                ProgromInit
+                0x08012f08                UartSendBuf
+                0x08012f1e                CheckProgromMode
+                0x08012fa0                CheckProgromTimeout
+                0x08012fbc                ProgromSendAck
+                0x08012fd0                ProgromSendFreqRange
+                0x0801302c                CheckLinkHead
+                0x0801306c                ProgromWriteReadData
+                0x08013164                EnterProgromMode
+                0x08013270                StatusAck
+                0x080132cc                CheckRxDataOk
+                0x0801332c                HandleProgromCmd
+                0x080134b8                EnterFlashProgromMode
+ .text          0x08013588       0x40 build\Driver/crc.o
+                0x08013588                CRC_ValidationCalc
+ .text          0x080135c8     0x10dc build\Driver/DevBK4819.o
+                0x080135c8                GOLAY_ENCODE
+                0x08013620                Rfic_GetTail
+                0x08013644                Rfic_SubaudioDetect
+                0x08013670                Rfic_GetTxPAPara
+                0x08013730                Rfic_SwitchFM_AM
+                0x0801374c                Rfic_ReadMDC1200Data
+                0x08013750                Rfic_GetSQLinkState
+                0x0801376c                Rfic_GetSCtsDcsType
+                0x08013778                Rfic_ByteWrite
+                0x080137b4                Rfic_WriteWord
+                0x080137f0                CTCSS_WithRfic
+                0x08013854                DTCSS_WithRfic
+                0x080138c0                CTS_DCS_RECE_Initial
+                0x080138f0                Rfic_SetPA
+                0x08013930                RF_SetAfResponse
+                0x080139b8                Rfic_Sleep
+                0x080139ce                Rfic_WakeUp
+                0x080139e0                Rfic_BandInitial
+                0x08013a54                Rfic_RxTxOnOffSetup
+                0x08013ab0                Rfic_SQLSetup
+                0x08013c08                Rfic_SetAfout
+                0x08013c90                Rfic_EnterDTMFMode
+                0x08013cbc                Rfic_SetDtmfFreq
+                0x08013cd2                Rfic_EnterFSKMode
+                0x08013d2c                Rfic_ExitFSKMode
+                0x08013d40                Rfic_ExitMDC1200Mode
+                0x08013d48                Rfic_FskTransmit
+                0x08013d9c                Rfic_EnterMDC1200Mode
+                0x08013dec                Rfic_GetMDC1200RxFlag
+                0x08013e0c                Rfic_SetToneFreq
+                0x08013e2c                Rfic_FreqScan_Enable
+                0x08013e3c                Rfic_FreqScan_Disable
+                0x08013e4c                Rfic_CtcDcsScan_Setup
+                0x08013e7c                Rfic_ScanQT_Enable
+                0x08013e96                Rfic_ScanQT_Disable
+                0x08013eae                Rfic_ReadWord
+                0x08013f38                RF_SendTail
+                0x08013f98                CTS_DCS_SEND_Initial
+                0x08013fcc                Rfic_ReadStatuesReg
+                0x08013fe0                Rfic_GpioSetBit
+                0x08014006                Rfic_AdjustMicPGA
+                0x08014028                Rfic_MicIn_Disable
+                0x0801403e                Rfic_MicIn_Enable
+                0x08014054                Rfic_SetScramble
+                0x080140f0                Rfic_ConfigRxMode
+                0x08014184                Rfic_Init
+                0x0801439c                Rfic_GetRxTxState
+                0x080143aa                Rfic_TxSingleTone_Off
+                0x080143f4                Rfic_GetRssiVal
+                0x08014402                Rfic_GetNoiseVal
+                0x08014410                Rfic_ConfigTxMode
+                0x080144a0                Rfic_ExitDTMFMode
+                0x080144d4                Rfic_GetDTMF_Link
+                0x08014504                Rfic_ReadDTMF
+                0x08014512                Rfic_GetFskRxFlag
+                0x08014534                Rfic_ReadFskData
+                0x0801455e                Rfic_MDC1200ToneTx
+                0x08014610                Rfic_TxSingleTone_On
+                0x08014644                Rfic_CheckFreqScan
+                0x08014662                Rfic_GetCtsDcsData
+ .text          0x080146a4        0x0 build\Driver/DevBK4819Data.o
+ .text          0x080146a4      0x1cc build\Driver/FlashFont.o
+                0x080146a4                Font_Read_16x16_CN
+                0x080146f8                Font_Read_12x12_CN
+                0x08014750                Font_Read_8x16_ASCII
+                0x08014774                Font_Read_6x12_ASCII
+                0x08014798                Font_Read_5x7_ASCII
+                0x080147bc                Font_Read_6x9_Number
+                0x080147fc                Font_Read_12x17_Number
+ .text          0x08014870       0x7c build\Driver/key_ptt.o
+                0x08014870                PTT_GetKeyVal
+                0x0801487c                PTT_ScanTask
+ .text          0x080148ec      0x22c build\Driver/keyboard.o
+                0x080148ec                GetKeyCode
+                0x08014984                KeyScanReset
+                0x0801499c                KEY_GetKeyEvent
+                0x08014a88                KEY_ScanTask
+                0x08014ae0                Key_GetRealEvent
+ .text          0x08014b18      0x34c build\Driver/NorFlash.o
+                0x08014b18                FlashCsDelay
+                0x08014b1a                SpiFlash_SendByte
+                0x08014b68                SpiFlash_WriteEnable
+                0x08014b7c                SpiFlash_WriteDisable
+                0x08014b90                SpiFlash_ReadStatus
+                0x08014bb8                SpiFlash_WriteStatus
+                0x08014be6                SpiFlash_CheckBusy
+                0x08014bf4                SpiFlash_ReadBytes
+                0x08014c38                SpiFlash_WriteByte_InPage
+                0x08014c94                SpiFlash_WriteBytes
+                0x08014cec                SpiFlash_EraseSector
+                0x08014d34                SpiFlash_Erase32kBlock
+                0x08014d84                SpiFlash_Erase64kBlock
+                0x08014ddc                SpiFlash_EraseChip
+                0x08014e18                SpiFlash_Init
+ .text          0x08014e64      0x154 build\Driver/RadioDataReset.o
+                0x08014e64                Reset21Chans
+                0x08014ec0                ResetChannelData
+                0x08014edc                ResetVfoModeData
+                0x08014f0c                ResetRadioFunData
+                0x08014fa8                ResetRadioData
+ .text          0x08014fb8      0x774 build\Driver/RadioDataStorage.o
+                0x08014fb8                Flash_ModifyChannelData
+                0x08015014                Flash_SaveChannelData
+                0x08015070                Flash_DeleteChannelData
+                0x0801508a                Flash_GetLogicAddrShift
+                0x080150d4                Flash_SaveRadioImfosData
+                0x080151ac                Flash_ReadRadioImfosData
+                0x0801522c                Flash_SaveVfoData
+                0x080152fc                Flash_ReadVfoData
+                0x0801537c                Flash_SaveSystemRunData
+                0x08015410                Flash_ReadSystemRunData
+                0x08015480                Flash_SaveDtmfInfo
+                0x080154c8                Flash_ReadDebugImfosData
+                0x08015724                Flash_SaveRfMoudelType
+                0x08015726                Flash_ReadRfMoudelType
+                0x08015728                Flash_SaveFmData
+                0x0801572a                Flash_ReadFmData
+ .text          0x0801572c      0x148 build\Driver/Rda5807.o
+                0x0801572c                RDA5807_SeriesWrite
+                0x08015764                RDA5802E_SeriesRead
+                0x08015788                RDA5807_PowerOn
+                0x08015792                RDA5807_PowerOff
+                0x080157b4                RDA5807_FrequencyToTune
+                0x08015808                RDA5807_Seek
+                0x08015820                RDA5807_STC
+ .text          0x08015874      0x718 build\Driver/st7735s.o
+                0x08015874                ST7735S_delay
+                0x08015876                ST7735S_Command_Write
+                0x080158c4                ST7735S_Data_Write
+                0x08015914                ST7735S_GRAM_Write
+                0x0801591e                ST7735S_Display_ON
+                0x0801592e                ST7735S_Display_OFF
+                0x0801593e                ST7735S_Cursor_Set
+                0x0801596a                ST7735S_Window_Set
+                0x080159ba                ST7735S_DrawPoint
+                0x08015a1a                ST7735S_Window
+                0x08015a64                ST7735S_Clear
+                0x08015a76                ST7735S_Init
+                0x08015c6e                ST7735S_Switch_Set
+                0x08015c80                ST7735S_Byte2Point
+                0x08015cba                WriteWord
+                0x08015ccc                ST7735S_SetRamAddr
+                0x08015d00                ST7735S_DisplayArea
+                0x08015d82                ST7735S_DisplayColorArea
+                0x08015dd8                ST7735S_ClearArea
+                0x08015e1a                ST7735S_DrawHorizonLine
+                0x08015e62                ST7735S_DrawVerticalLine
+                0x08015eac                ST7735S_DrawRect
+                0x08015ef6                ST7735S_DrawRoundRectFill
+ .text          0x08015f8c      0x1ec build\Driver/Systick.o
+                0x08015f8c                SysTickHandler
+                0x0801615c                DelaySysMs
+ .text          0x08016178        0x2 build\Gui/DisplayBattery.o
+                0x08016178                DisplayBatteryVol
+ *fill*         0x0801617a        0x2 
+ .text          0x0801617c       0x28 build\Gui/DisplayDtmf.o
+                0x0801617c                DisplayDtmfEditHome
+                0x0801617e                DisplayInputDtmf
+ .text          0x080161a4       0xcc build\Gui/DisplayFm.o
+                0x080161a4                FmDisplayInputFreq
+                0x080161cc                FmDisplayInputChNum
+                0x080161e4                FmDisplaySeek
+                0x080161e6                FmDisplayChNum
+                0x08016228                FmDisplayFreq
+                0x08016268                FmDisplayHome
+ .text          0x08016270      0x8a0 build\Gui/DisplayInputbox.o
+                0x08016270                ChangeCapsLow
+                0x0801628c                ChangePos
+                0x080162cc                BackSpaceChar
+                0x08016324                InsertChar
+                0x08016354                CharInput
+                0x0801637c                ClearInputBuffer
+                0x080163a4                CheckSjTimeout
+                0x080163c0                SetInputDisMode
+                0x080163cc                DisplaySelectPy
+                0x0801658c                DrowInputWindow
+                0x080165b8                Asc7B_To_Bcd4B
+                0x080165bc                SearchPyIndex
+                0x08016768                ClearPyIndex
+                0x080167a0                ChkFirstInput
+                0x080167bc                NumInput
+                0x080167dc                ChangeInputType
+                0x08016830                SelectPinYin
+                0x08016860                SelectHZ
+                0x08016890                SelectBD
+                0x080168c0                T9Select
+                0x0801690c                EnterSelectMode
+                0x0801699c                InputPinYin
+                0x08016a24                NumToChar
+                0x08016ac0                BackSpace
+ .text          0x08016b10      0xb2c build\Gui/DisplayMain.o
+                0x08016b10                DisplayProgrom
+                0x08016b60                DisplayLockFlag
+                0x08016b94                DisplayMoniFlag
+                0x08016bc8                DisplayVoxFlag
+                0x08016bfc                DisplayDualRxFlag
+                0x08016c30                DisplaySKeyTone
+                0x08016c64                DisplayStateBar
+                0x08016cb0                TranStrToMiddle
+                0x08016cec                FillChannelName2Buf
+                0x08016d64                GetWorkBackColour
+                0x08016d80                DisplayChannelNum
+                0x08016e48                DisplayCurFreq
+                0x08016ec8                DisplayUpdateChFlag
+                0x08017110                DisplayTxPowerLv
+                0x080171ac                DisplayRssiValue
+                0x08017224                DisplayChannelMsg
+                0x080173a4                DisplayRadioHome
+                0x08017494                DisplayHomePage
+                0x080174b4                DisplayInputChNum
+                0x08017524                DisplayInputVfoFreq
+                0x080175b0                DisplayRxMode
+                0x080175b2                DisplayTxMode
+                0x08017618                GetRxArea
+                0x08017638                DisplayResetRxFlag
+                0x0801763a                DisplaySoftVersion
+ .text          0x0801763c      0x8e8 build\Gui/DisplayMenu.o
+                0x0801763c                Menu_GetSubItemString
+                0x08017a4c                Menu_DisplayFreqError
+                0x08017a7c                DisplayInputOffect
+                0x08017b20                DisplayInputChFreq
+                0x08017bb8                DisplayInputVfoScan
+                0x08017c4c                GetCtcssDisBuf
+                0x08017ccc                UpdateMenuDisplay
+                0x08017d78                DisplayInputType
+                0x08017db4                DisplaySelectHz
+                0x08017e00                MenuShowInputChar
+                0x08017e50                Menu_Display
+ .text          0x08017f24       0x78 build\Gui/DisplayPowerOn.o
+                0x08017f24                UI_DisplayPowerOn
+ .text          0x08017f9c      0x100 build\Gui/DisplayScanQT.o
+                0x08017f9c                QTScanDisplay
+                0x0801800c                QTScanDisplayStatus
+                0x08018048                QTScanDisplayHome
+ .text          0x0801809c       0xe0 build\Gui/DisplaySearch.o
+                0x0801809c                SearchFreqModeDisplayDCSData
+                0x0801810c                SearchFreqModeDisplayStepMsg
+                0x08018170                SearchFreqDisplayHome
+ .text          0x0801817c       0x64 build\Gui/DisplayWeather.o
+                0x0801817c                WeatherDisplayFreq
+                0x080181d8                WeatherDisplayHome
+ .text          0x080181e0      0x2bc build\Gui/LcdFillDot.o
+                0x080181e0                LCD_ClearArea
+                0x080181ee                LCD_DisplayText
+                0x08018318                LCD_DisplayText5X7
+                0x08018364                LCD_DrawRectangle
+                0x0801837a                LCD_DisplayIcon
+                0x08018392                LCD_DisplayNum6X9
+                0x08018402                LCD_DisplayNum12x17
+ .text          0x0801849c      0x20c build\Interface/i2c.o
+                0x0801849c                I2C_Start
+                0x080184d4                I2C_Stop
+                0x08018510                I2C_Read
+                0x0801859c                I2C_Write
+                0x08018648                I2C_ReadBuffer
+                0x0801868a                I2C_WriteBuffer
+ .text          0x080186a8       0xf0 build\Voice/Beep.o
+                0x080186a8                BeepOut
+ .text          0x08018798      0x750 build\Voice/VoiceBroadcast.o
+                0x080187bc                VoiceOutput_Interrupt
+                0x08018834                AudioHard_Init
+                0x0801895c                Audio_PlayNumInQueue
+                0x080189a8                Audio_PlayChanNum
+                0x08018af0                ChangeSigned2unsigned
+                0x08018b0c                Audio_Decoder
+                0x08018cd4                Audio_PlayStart
+                0x08018d0c                Audio_PlayContinue
+                0x08018da0                Audio_PlayStop
+                0x08018de4                Audio_PlayVoice
+                0x08018e2c                Audio_CheckBusy
+                0x08018e38                Audio_PlayTask
+                0x08018eac                Audio_PlayVoiceLock
+                0x08018ec8                VoiceBroadcastWithBeepLock
+ .text          0x08018ee8       0x20 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+                0x08018ee8                Reset_Handler
+                0x08018efc                ADC1_COMP_IRQHandler
+                0x08018efc                TIM6_IRQHandler
+                0x08018efc                PVD_IRQHandler
+                0x08018efc                USART3_6IRQHandler
+                0x08018efc                I2C1_IRQHandler
+                0x08018efc                SPI1_IRQHandler
+                0x08018efc                EXTI2_3_IRQHandler
+                0x08018efc                I2C2_IRQHandler
+                0x08018efc                TIM17_IRQHandler
+                0x08018efc                RTC_IRQHandler
+                0x08018efc                TIM1_CC_IRQHandler
+                0x08018efc                TIM16_IRQHandler
+                0x08018efc                TIM3_IRQHandler
+                0x08018efc                EXTI4_15_IRQHandler
+                0x08018efc                RCC_IRQHandler
+                0x08018efc                DMA1_Channel1_IRQHandler
+                0x08018efc                TIM14_IRQHandler
+                0x08018efc                TIM7_IRQHandler
+                0x08018efc                TIM15_IRQHandler
+                0x08018efc                EXTI0_1_IRQHandler
+                0x08018efc                SPI2_IRQHandler
+                0x08018efc                ALU_IRQHandler
+                0x08018efc                TS_IRQHandler
+                0x08018efc                WWDG_IRQHandler
+                0x08018efc                TIM2_IRQHandler
+                0x08018efc                DMA1_Channel2_3_IRQHandler
+                0x08018efc                FLASH_IRQHandler
+                0x08018efc                TIM1_BRK_UP_TRG_COM_IRQHandler
+ .text          0x08018f08       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+                0x08018f08                __gnu_thumb1_case_sqi
+ .text          0x08018f1c       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+                0x08018f1c                __gnu_thumb1_case_uqi
+ .text          0x08018f30       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+                0x08018f30                __gnu_thumb1_case_shi
+ .text          0x08018f44       0x14 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+                0x08018f44                __gnu_thumb1_case_uhi
+ .text          0x08018f58      0x114 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x08018f58                __aeabi_uidiv
+                0x08018f58                __udivsi3
+                0x08019064                __aeabi_uidivmod
+ .text          0x0801906c      0x1d4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+                0x0801906c                __divsi3
+                0x0801906c                __aeabi_idiv
+                0x08019238                __aeabi_idivmod
+ .text          0x08019240        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x08019240                __aeabi_idiv0
+                0x08019240                __aeabi_ldiv0
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+ .text          0x08019244        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .text          0x08019244        0xe D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+                0x08019244                strlen
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+ .text          0x08019252        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ *(.text*)
+ *fill*         0x08019252        0x2 
+ .text.startup  0x08019254       0xcc build\App/main.o
+                0x08019254                main
+ .text.init_stack_heap
+                0x08019320        0x2 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+                0x08019320                __User_Initial_StackHeap
+ .text.atoi     0x08019322        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+                0x08019322                atoi
+ .text._atoi_r  0x0801932e        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+                0x0801932e                _atoi_r
+ .text.atol     0x0801933a        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+                0x0801933a                atol
+ .text._atol_r  0x08019346        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+                0x08019346                _atol_r
+ *fill*         0x08019352        0x2 
+ .text._strtol_l.isra.0
+                0x08019354      0x114 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+ .text._strtol_r
+                0x08019468        0x8 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+                0x08019468                _strtol_r
+ .text.strtol_l
+                0x08019470       0x18 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+                0x08019470                strtol_l
+ .text.strtol   0x08019488       0x18 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+                0x08019488                strtol
+ .text._sprintf_r
+                0x080194a0       0x38 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+                0x080194a0                _sprintf_r
+                0x080194a0                _siprintf_r
+ .text.sprintf  0x080194d8       0x40 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+                0x080194d8                siprintf
+                0x080194d8                sprintf
+ .text.memcmp   0x08019518       0x1c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+                0x08019518                memcmp
+ .text.memset   0x08019534       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x08019534                memset
+ .text.strncpy  0x08019544       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+                0x08019544                strncpy
+ .text.__errno  0x0801956c        0xc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+                0x0801956c                __errno
+ .text.strcpy   0x08019578       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+                0x08019578                strcpy
+ .text.memcpy   0x08019588       0x12 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+                0x08019588                memcpy
+ *fill*         0x0801959a        0x2 
+ .text.__ssputs_r
+                0x0801959c       0xc0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x0801959c                __ssputs_r
+ .text.__ssprint_r
+                0x0801965c      0x104 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x0801965c                __ssprint_r
+ .text._svfprintf_r
+                0x08019760      0x1fc D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x08019760                _svfiprintf_r
+                0x08019760                _svfprintf_r
+ .text._printf_common
+                0x0801995c       0xde D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0801995c                _printf_common
+ *fill*         0x08019a3a        0x2 
+ .text._printf_i
+                0x08019a3c      0x218 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08019a3c                _printf_i
+ .text.memmove  0x08019c54       0x24 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+                0x08019c54                memmove
+ .text.memchr   0x08019c78       0x16 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+                0x08019c78                memchr
+ *fill*         0x08019c8e        0x2 
+ .text._free_r  0x08019c90       0x94 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+                0x08019c90                _free_r
+ .text.sbrk_aligned
+                0x08019d24       0x44 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x08019d68      0x100 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                0x08019d68                _malloc_r
+ .text.__malloc_lock
+                0x08019e68       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+                0x08019e68                __malloc_lock
+ .text.__malloc_unlock
+                0x08019e78       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+                0x08019e78                __malloc_unlock
+ .text._realloc_r
+                0x08019e88       0x60 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+                0x08019e88                _realloc_r
+ .text._sbrk_r  0x08019ee8       0x24 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+                0x08019ee8                _sbrk_r
+ .text.__retarget_lock_init
+                0x08019f0c        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f0c                __retarget_lock_init
+ .text.__retarget_lock_init_recursive
+                0x08019f0e        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f0e                __retarget_lock_init_recursive
+ .text.__retarget_lock_close
+                0x08019f10        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f10                __retarget_lock_close
+ .text.__retarget_lock_close_recursive
+                0x08019f12        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f12                __retarget_lock_close_recursive
+ .text.__retarget_lock_acquire
+                0x08019f14        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f14                __retarget_lock_acquire
+ .text.__retarget_lock_acquire_recursive
+                0x08019f16        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f16                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_try_acquire
+                0x08019f18        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f18                __retarget_lock_try_acquire
+ .text.__retarget_lock_try_acquire_recursive
+                0x08019f1c        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f1c                __retarget_lock_try_acquire_recursive
+ .text.__retarget_lock_release
+                0x08019f20        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f20                __retarget_lock_release
+ .text.__retarget_lock_release_recursive
+                0x08019f22        0x2 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x08019f22                __retarget_lock_release_recursive
+ .text._malloc_usable_size_r
+                0x08019f24       0x10 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+                0x08019f24                _malloc_usable_size_r
+ .text._reclaim_reent
+                0x08019f34       0xc0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+                0x08019f34                _reclaim_reent
+ .text._sbrk    0x08019ff4       0x1c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+                0x08019ff4                _sbrk
+ *(.glue_7)
+ .glue_7        0x0801a010        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0801a010        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0801a010                        . = ALIGN (0x4)
+                0x0801a010                        _etext = .
+
+.vfp11_veneer   0x0801a010        0x0
+ .vfp11_veneer  0x0801a010        0x0 linker stubs
+
+.v4_bx          0x0801a010        0x0
+ .v4_bx         0x0801a010        0x0 linker stubs
+
+.iplt           0x0801a010        0x0
+ .iplt          0x0801a010        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+
+.rodata         0x0801a010     0x1c7c
+                0x0801a010                        . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0801a010       0x10 build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+ .rodata        0x0801a020       0x10 build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
+                0x0801a020                AHBPrescTable
+ .rodata        0x0801a030       0x65 build\App/AppDtmf.o
+                0x0801a030                SingalTone
+                0x0801a034                DTMFCODE
+                0x0801a088                TblSeprator
+                0x0801a08e                TblGroupCall
+ .rodata        0x0801a095        0xa build\App/AppMain.o
+                0x0801a095                sideKeyEvent
+                0x0801a09c                DefaultSideKeyEvent
+ *fill*         0x0801a09f        0x1 
+ .rodata        0x0801a0a0       0x1a build\App/AppMenu.o
+                0x0801a0a0                CtcssCalcTbl
+                0x0801a0b4                CtcssCalcMul
+ *fill*         0x0801a0ba        0x2 
+ .rodata        0x0801a0bc       0x28 build\App/AppWeather.o
+                0x0801a0bc                TAB_WEATHER
+ .rodata        0x0801a0e4        0x7 build\App/Battery.o
+                0x0801a0e4                TH_BATT_TAB
+ .rodata        0x0801a0eb      0x367 build\Common/BitMap.o
+                0x0801a0eb                iconWorkWeather
+                0x0801a173                iconProgrom
+                0x0801a1f3                iconMenuSel
+                0x0801a1ff                iconArrowB
+                0x0801a206                iconArrowA
+                0x0801a20d                iconChArrow
+                0x0801a212                iconSearchFreq
+                0x0801a22e                iconScr
+                0x0801a23f                iconFhss
+                0x0801a24a                iconScan
+                0x0801a255                iconLock
+                0x0801a267                iconNarrow
+                0x0801a26e                iconUnNet
+                0x0801a273                iconReverse
+                0x0801a278                iconSub
+                0x0801a27f                iconAdd
+                0x0801a286                iconVox
+                0x0801a2b4                iconMoni
+                0x0801a2d4                iconDual
+                0x0801a2f4                iconAM
+                0x0801a301                iconCtcss
+                0x0801a312                iconDcs
+                0x0801a323                iconPowerH
+                0x0801a328                iconPowerM
+                0x0801a32d                iconPowerL
+                0x0801a332                iconSKTone
+                0x0801a342                iconBattFull
+                0x0801a372                iconBatt3
+                0x0801a3a2                iconBatt2
+                0x0801a3d2                iconBatt1
+                0x0801a402                iconBattEmpty
+                0x0801a432                iconMenuUse
+ .rodata        0x0801a452        0xb build\Core/Functions.o
+                0x0801a452                VOX_TH
+ *fill*         0x0801a45d        0x1 
+ .rodata        0x0801a45e       0x1c build\Core/Radio.o
+                0x0801a45e                stepList
+                0x0801a470                MOD_LIST
+ .rodata        0x0801a47a       0x5c build\Core/RadioTask.o
+                0x0801a47a                TxCheckFreq
+                0x0801a4c2                RssiLevel
+ .rodata        0x0801a4d6       0x35 build\CPS/ProgromFlash.o
+                0x0801a4d6                linkHead
+                0x0801a4e7                strModelType
+                0x0801a4ec                updateFlag
+                0x0801a4f3                strModelType2
+                0x0801a4ff                strModelType1
+ *fill*         0x0801a50b        0x1 
+ .rodata        0x0801a50c       0x98 build\Driver/DevBK4819.o
+                0x0801a566                xtal26MAdjust
+                0x0801a578                afState
+                0x0801a584                tblScramble
+ .rodata        0x0801a5a4      0x138 build\Driver/DevBK4819Data.o
+                0x0801a5a4                CTCS_TAB
+                0x0801a60a                DCS_TAB
+ .rodata        0x0801a6dc       0x3e build\Driver/keyboard.o
+                0x0801a6dc                keyscanTab1
+                0x0801a6e6                keyscanTab2
+                0x0801a6f0                KEYBOARD_TABLE
+ .rodata        0x0801a71a      0x168 build\Driver/RadioDataReset.o
+                0x0801a71a                VFO_A_DEFAULT_DATA
+                0x0801a73a                VFO_B_DEFAULT_DATA
+                0x0801a75a                RADIO_INFORM_DEFAULT
+                0x0801a79a                DTMF_INFORM_DEFAULT
+                0x0801a7aa                DTMF_CODE_DEFAULT
+                0x0801a7b2                ChFreqTbl
+                0x0801a85a                CHANNEL_128_DEFAULT_DATA
+                0x0801a86e                CHANNEL_1_DEFAULT_DATA
+ .rodata        0x0801a882       0x20 build\Driver/RadioDataStorage.o
+                0x0801a882                addrMap
+                0x0801a88a                fixBand1
+                0x0801a89a                fixBand2
+ *fill*         0x0801a8a2        0x2 
+ .rodata        0x0801a8a4       0xa0 build\Gui/DisplayInputbox.o
+                0x0801a8a4                InputChar
+                0x0801a8b0                t9PY_index_headno
+                0x0801a8d8                t9PY_indexlen
+                0x0801a8e4                SJCharTbl
+                0x0801a914                NUMBER_SJCharTbl
+ .rodata        0x0801a944        0x8 build\Gui/DisplayMain.o
+                0x0801a944                linePosX
+ .rodata        0x0801a94c      0x796 build\Gui/DisplayMenu.o
+                0x0801a94c                PttIDDelay
+                0x0801a953                MenuFmList
+                0x0801a9a8                InputPosY
+                0x0801a9aa                MenuList
+ .rodata        0x0801b0e2        0xd build\Gui/DisplaySearch.o
+ .rodata        0x0801b0ef       0x36 build\Voice/Beep.o
+                0x0801b0ef                BEEP_time
+                0x0801b10a                BEEP_tone
+ *fill*         0x0801b125        0x3 
+ .rodata        0x0801b128       0xf2 build\Voice/VoiceBroadcast.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x0801b21a      0x970 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+                                 0x2d (size before relaxing)
+ .rodata.str1.1
+                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
+ .rodata.str1.1
+                0x0801bb8a       0x30 build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
+ .rodata.str1.1
+                0x0801bb8a       0x31 build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
+ .rodata.str1.1
+                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
+ .rodata.str1.1
+                0x0801bb8a       0x2f build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
+ .rodata.str1.1
+                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
+ .rodata.str1.1
+                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
+ .rodata.str1.1
+                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
+ .rodata.str1.1
+                0x0801bb8a       0x30 build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
+ .rodata.str1.1
+                0x0801bb8a       0x2d build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
+ .rodata.str1.1
+                0x0801bb8a       0x2f build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
+ .rodata.str1.1
+                0x0801bb8a       0x2e build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
+ .rodata.str1.1
+                0x0801bb8a        0x7 build\App/AppDtmf.o
+ .rodata.str1.1
+                0x0801bb8a       0x5b build\App/AppMenu.o
+ .rodata.str1.1
+                0x0801bb8a        0x5 build\Core/Radio.o
+ .rodata.str1.1
+                0x0801bb8a       0x10 build\Gui/DisplayFm.o
+ .rodata.str1.1
+                0x0801bb8a       0x66 build\Gui/DisplayInputbox.o
+ .rodata.str1.1
+                0x0801bb8a       0x5c build\Gui/DisplayMain.o
+ .rodata.str1.1
+                0x0801bb8a      0x430 build\Gui/DisplayMenu.o
+ .rodata.str1.1
+                0x0801bb8a       0x27 build\Gui/DisplayPowerOn.o
+ .rodata.str1.1
+                0x0801bb8a       0x59 build\Gui/DisplayScanQT.o
+ .rodata.str1.1
+                0x0801bb8a       0x32 build\Gui/DisplaySearch.o
+ .rodata.str1.1
+                0x0801bb8a       0x10 build\Gui/DisplayWeather.o
+ .rodata._ctype_
+                0x0801bb8a      0x101 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+                0x0801bb8a                _ctype_
+ .rodata._svfprintf_r.str1.1
+                0x0801bc8b       0x11 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+ .rodata._printf_i.str1.1
+                0x0801bc8b       0x22 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0801bfbc                        . = ALIGN (0x4)
+ *fill*         0x0801bc8b        0x1 
+
+.rel.dyn        0x0801bc8c        0x0
+ .rel.iplt      0x0801bc8c        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+
+.data           0x200000c0      0x3f8 load address 0x0801bc8c
+                0x200000c0                        . = ALIGN (0x4)
+                0x200000c0                        _sdata = .
+ *(.data)
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
+ .data          0x200000c0        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
+ .data          0x200000c0        0x4 build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
+                0x200000c0                SystemCoreClock
+ .data          0x200000c4        0x0 build\App/main.o
+ .data          0x200000c4        0x0 build\App/AppAlarm.o
+ .data          0x200000c4        0x0 build\App/AppDtmf.o
+ .data          0x200000c4        0x0 build\App/AppFm.o
+ .data          0x200000c4        0x0 build\App/AppMain.o
+ .data          0x200000c4        0x0 build\App/AppMenu.o
+ .data          0x200000c4        0x0 build\App/AppMoni.o
+ .data          0x200000c4        0x0 build\App/AppScan.o
+ .data          0x200000c4        0x0 build\App/AppScanQT.o
+ .data          0x200000c4        0x0 build\App/AppSearch.o
+ .data          0x200000c4        0x0 build\App/AppTask.o
+ .data          0x200000c4        0x0 build\App/AppWeather.o
+ .data          0x200000c4       0x14 build\App/Battery.o
+                0x200000c4                battIcon
+ .data          0x200000d8        0x0 build\App/DualStandby.o
+ .data          0x200000d8        0x0 build\BSP/Board.o
+ .data          0x200000d8        0x0 build\BSP/BoardFun.o
+ .data          0x200000d8        0x0 build\BSP/bt32f0x_it.o
+ .data          0x200000d8        0x0 build\Common/BitMap.o
+ .data          0x200000d8        0x0 build\Common/Delay.o
+ .data          0x200000d8        0x0 build\Common/Globe.o
+ .data          0x200000d8        0x0 build\Common/assert_failed_stub.o
+ .data          0x200000d8        0x0 build\Core/Functions.o
+ .data          0x200000d8        0x0 build\Core/Radio.o
+ .data          0x200000d8        0x1 build\Core/RadioTask.o
+ .data          0x200000d9        0x0 build\CPS/ProgromFlash.o
+ .data          0x200000d9        0x0 build\Driver/crc.o
+ .data          0x200000d9        0x1 build\Driver/DevBK4819.o
+ *fill*         0x200000da        0x2 
+ .data          0x200000dc      0x140 build\Driver/DevBK4819Data.o
+                0x200000dc                TXPWR_U_350
+                0x200000e8                TXPWR_V_200
+                0x200000f4                TXPWR_V_136
+                0x20000100                TXPWR_U_400
+                0x2000010c                OFFSET_MODULATION
+                0x2000011c                OFFSET_SQL_V_136
+                0x2000012c                OFFSET_SQL_U_400
+                0x2000013c                TH_SQL_TAB_MUTE
+                0x2000014c                TH_SQL_TAB
+                0x2000015c                TXPWR_L_U_350
+                0x2000016c                TXPWR_L_V_200
+                0x2000017c                TXPWR_L_V_136
+                0x2000018c                TXPWR_L_U_400
+                0x2000019c                TXPWR_M_U_350
+                0x200001ac                TXPWR_M_V_200
+                0x200001bc                TXPWR_M_V_136
+                0x200001cc                TXPWR_M_U_400
+                0x200001dc                TXPWR_H_U_350
+                0x200001ec                TXPWR_H_V_200
+                0x200001fc                TXPWR_H_V_136
+                0x2000020c                TXPWR_H_U_400
+ .data          0x2000021c        0x0 build\Driver/FlashFont.o
+ .data          0x2000021c        0x0 build\Driver/key_ptt.o
+ .data          0x2000021c        0x3 build\Driver/keyboard.o
+ .data          0x2000021f        0x0 build\Driver/NorFlash.o
+ .data          0x2000021f        0x0 build\Driver/RadioDataReset.o
+ .data          0x2000021f        0x0 build\Driver/RadioDataStorage.o
+ .data          0x2000021f        0x8 build\Driver/Rda5807.o
+                0x2000021f                RDA5807_BUFF
+ .data          0x20000227        0x0 build\Driver/st7735s.o
+ .data          0x20000227        0x0 build\Driver/Systick.o
+ .data          0x20000227        0x0 build\Gui/DisplayBattery.o
+ .data          0x20000227        0x0 build\Gui/DisplayDtmf.o
+ .data          0x20000227        0x0 build\Gui/DisplayFm.o
+ .data          0x20000227        0x0 build\Gui/DisplayInputbox.o
+ .data          0x20000227        0x0 build\Gui/DisplayMain.o
+ *fill*         0x20000227        0x1 
+ .data          0x20000228      0x240 build\Gui/DisplayMenu.o
+                0x20000228                FMBandItemStr
+                0x20000230                BandCnStr
+                0x20000238                BandEnStr
+                0x20000240                TxPowerCnStr
+                0x20000248                TxPowerEnStr
+                0x20000250                VfoDirCnStr
+                0x2000025c                VfoDirEnStr
+                0x20000268                ScanmodCnStr
+                0x20000274                ScanmodEnStr
+                0x20000280                DtmfSetSelCnStr
+                0x20000290                DtmfSetSelEnStr
+                0x200002a0                PttIdSelCnStr
+                0x200002b0                PttIdSelEnStr
+                0x200002c0                BatSaveCnStr
+                0x200002d0                BatSaveEnStr
+                0x200002e0                VoxCnStr
+                0x20000308                LanStr
+                0x20000310                TxEndToneCnStr
+                0x2000031c                TxEndToneEnStr
+                0x20000328                PwrOnCnStr
+                0x20000334                PwrOnEnStr
+                0x20000340                DualSelCnStr
+                0x2000034c                DualSelEnStr
+                0x20000358                ChDisCnStr
+                0x20000368                ChDisEnStr
+                0x20000378                ToneEnStr
+                0x20000388                VfoStepStr
+                0x200003a8                AlmodCnStr
+                0x200003b4                AlmodEnStr
+                0x200003c0                SideKeyCnStr
+                0x200003dc                SideKeyEnStr
+                0x200003f8                DevResetCnStr
+                0x20000400                DevResetEnStr
+                0x20000408                SpMuteSelEnStr
+                0x20000410                SpMuteSelCnStr
+                0x20000418                PwrOnToneSelCnStr
+                0x20000424                PwrOnToneSelEnStr
+                0x20000430                ReflexEnStr
+                0x20000438                ReflexCnStr
+                0x20000440                RxEndTailSelEnStr
+                0x20000448                RxEndTailSelCnStr
+                0x20000450                OnSelEnStr
+                0x20000454                OnSelCnStr
+                0x20000458                OnOffEnStr
+                0x20000460                OnOffCnStr
+ .data          0x20000468        0x0 build\Gui/DisplayPowerOn.o
+ .data          0x20000468        0x0 build\Gui/DisplayScanQT.o
+ .data          0x20000468        0x0 build\Gui/DisplaySearch.o
+ .data          0x20000468        0x0 build\Gui/DisplayWeather.o
+ .data          0x20000468        0x0 build\Gui/LcdFillDot.o
+ .data          0x20000468        0x0 build\Interface/i2c.o
+ .data          0x20000468        0x0 build\Voice/Beep.o
+ .data          0x20000468        0x0 build\Voice/VoiceBroadcast.o
+ .data          0x20000468        0x0 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+ .data          0x20000468        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ *(.data*)
+ .data._impure_ptr
+                0x20000468        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+                0x20000468                _impure_ptr
+ .data._impure_data
+                0x2000046c       0x4c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+                0x2000046c                _impure_data
+                0x200004b8                        . = ALIGN (0x4)
+                0x200004b8                        _edata = .
+                0x0801bc8c                        _sidata = LOADADDR (.data)
+
+.igot.plt       0x200004b8        0x0 load address 0x0801c084
+ .igot.plt      0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+
+.bss            0x200004b8     0x1b64 load address 0x0801c084
+                0x200004b8                        . = ALIGN (0x4)
+                0x200004b8                        _sbss = .
+ *(.bss)
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
+ .bss           0x200004b8        0x0 build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
+ .bss           0x200004b8        0x0 build\App/main.o
+ .bss           0x200004b8        0xa build\App/AppAlarm.o
+                0x200004b8                alarmDat
+ .bss           0x200004c2      0x1be build\App/AppDtmf.o
+                0x200004c2                g_dtmfStore
+                0x200004ce                dtmfInfo
+ .bss           0x20000680        0xc build\App/AppFm.o
+                0x20000680                fmInfo
+ .bss           0x2000068c        0x0 build\App/AppMain.o
+ .bss           0x2000068c       0x1c build\App/AppMenu.o
+                0x2000068c                g_menuInfo
+ .bss           0x200006a8        0x0 build\App/AppMoni.o
+ .bss           0x200006a8        0x5 build\App/AppScan.o
+                0x200006a8                g_scanInfo
+ *fill*         0x200006ad        0x3 
+ .bss           0x200006b0       0x11 build\App/AppScanQT.o
+                0x200006b0                g_ScanQTInfo
+ *fill*         0x200006c1        0x3 
+ .bss           0x200006c4       0x21 build\App/AppSearch.o
+                0x200006c4                searchFreqImofs
+                0x200006e4                searchSaveFlag
+ .bss           0x200006e5        0x0 build\App/AppTask.o
+ *fill*         0x200006e5        0x3 
+ .bss           0x200006e8        0xd build\App/AppWeather.o
+                0x200006e8                Weatherfreq
+ *fill*         0x200006f5        0x1 
+ .bss           0x200006f6       0x10 build\App/Battery.o
+                0x200006f6                battery
+                0x20000702                powerSave
+ .bss           0x20000706        0x6 build\App/DualStandby.o
+                0x20000706                dualStandby
+ .bss           0x2000070c        0x0 build\BSP/Board.o
+ .bss           0x2000070c        0x3 build\BSP/BoardFun.o
+ .bss           0x2000070f        0x0 build\BSP/bt32f0x_it.o
+ .bss           0x2000070f        0x0 build\Common/BitMap.o
+ .bss           0x2000070f        0x0 build\Common/Delay.o
+ *fill*         0x2000070f        0x1 
+ .bss           0x20000710      0x2dc build\Common/Globe.o
+                0x20000710                inputTypeBack
+                0x20000711                g_rfTxState
+                0x20000712                g_rfRxState
+                0x20000713                g_rfState
+                0x20000714                g_UpdateDisplay
+                0x20000718                g_500msFlag
+                0x20000719                g_100msFlag
+                0x2000071a                g_50msFlag
+                0x2000071b                g_10msFlag
+                0x2000071c                g_100msCont
+                0x2000071d                g_10msCont
+                0x2000071e                g_msFlag
+                0x2000071f                g_msCont
+                0x20000720                g_CurrentVfo
+                0x20000724                g_ChannelVfoInfo
+                0x2000091c                g_inputbuf
+                0x20000938                g_sysRunPara
+                0x20000974                g_FMInform
+                0x200009b4                g_radioInform
+ .bss           0x200009ec        0x0 build\Common/assert_failed_stub.o
+ .bss           0x200009ec        0x0 build\Core/Functions.o
+ .bss           0x200009ec        0x0 build\Core/Radio.o
+ .bss           0x200009ec        0x4 build\Core/RadioTask.o
+ .bss           0x200009f0      0x4ae build\CPS/ProgromFlash.o
+                0x20000a34                flashProgrom
+                0x20000a84                progrom
+ .bss           0x20000e9e        0x0 build\Driver/crc.o
+ .bss           0x20000e9e        0x3 build\Driver/DevBK4819.o
+ .bss           0x20000ea1       0x40 build\Driver/DevBK4819Data.o
+                0x20000ea1                OFFSET_SQL_18_100
+                0x20000ec1                OFFSET_SQL_U_350
+                0x20000ed1                OFFSET_SQL_V_200
+ .bss           0x20000ee1        0x0 build\Driver/FlashFont.o
+ .bss           0x20000ee1        0x1 build\Driver/key_ptt.o
+ .bss           0x20000ee2        0x5 build\Driver/keyboard.o
+                0x20000ee2                g_keyScan
+ .bss           0x20000ee7        0x0 build\Driver/NorFlash.o
+ .bss           0x20000ee7        0x0 build\Driver/RadioDataReset.o
+ *fill*         0x20000ee7        0x1 
+ .bss           0x20000ee8       0x88 build\Driver/RadioDataStorage.o
+                0x20000ee8                powerOnMsg
+                0x20000ef9                VfoBuf
+                0x20000f3b                g_rfMoudel
+                0x20000f40                bandRang
+ .bss           0x20000f70        0x0 build\Driver/Rda5807.o
+ .bss           0x20000f70        0x0 build\Driver/st7735s.o
+ .bss           0x20000f70        0x0 build\Driver/Systick.o
+ .bss           0x20000f70        0x0 build\Gui/DisplayBattery.o
+ .bss           0x20000f70        0x0 build\Gui/DisplayDtmf.o
+ .bss           0x20000f70        0x0 build\Gui/DisplayFm.o
+ .bss           0x20000f70       0x51 build\Gui/DisplayInputbox.o
+                0x20000f70                SJPriorChar
+                0x20000f72                SJCharIndex
+                0x20000f74                SJTimeout
+                0x20000f76                t9Pinyin
+                0x20000f94                lcdDispBuf
+                0x20000fb8                pyBuf
+                0x20000fc0                IME_TYPE
+ .bss           0x20000fc1        0x0 build\Gui/DisplayMain.o
+ .bss           0x20000fc1       0x11 build\Gui/DisplayMenu.o
+                0x20000fc1                disBuf
+ .bss           0x20000fd2        0x0 build\Gui/DisplayPowerOn.o
+ .bss           0x20000fd2        0x0 build\Gui/DisplayScanQT.o
+ .bss           0x20000fd2        0x0 build\Gui/DisplaySearch.o
+ .bss           0x20000fd2        0x0 build\Gui/DisplayWeather.o
+ .bss           0x20000fd2        0x0 build\Gui/LcdFillDot.o
+ .bss           0x20000fd2        0x0 build\Interface/i2c.o
+ .bss           0x20000fd2        0x4 build\Voice/Beep.o
+                0x20000fd2                beepDat
+ *fill*         0x20000fd6        0x2 
+ .bss           0x20000fd8     0x1029 build\Voice/VoiceBroadcast.o
+                0x20000fd8                voice
+                0x20000fe8                g_voiceInform
+                0x20002000                FastChangeVoice
+ .bss           0x20002001        0x0 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+ .bss           0x20002001        0x0 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ *(.bss*)
+ *fill*         0x20002001        0x3 
+ .bss.__malloc_sbrk_start
+                0x20002004        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                0x20002004                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x20002008        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+                0x20002008                __malloc_free_list
+ .bss.__lock___arc4random_mutex
+                0x2000200c        0x1 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x2000200c                __lock___arc4random_mutex
+ .bss.__lock___dd_hash_mutex
+                0x2000200d        0x1 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x2000200d                __lock___dd_hash_mutex
+ .bss.__lock___tz_mutex
+                0x2000200e        0x1 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x2000200e                __lock___tz_mutex
+ .bss.__lock___env_recursive_mutex
+                0x2000200f        0x1 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x2000200f                __lock___env_recursive_mutex
+ .bss.__lock___malloc_recursive_mutex
+                0x20002010        0x1 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x20002010                __lock___malloc_recursive_mutex
+ .bss.__lock___at_quick_exit_mutex
+                0x20002011        0x1 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x20002011                __lock___at_quick_exit_mutex
+ .bss.__lock___atexit_recursive_mutex
+                0x20002012        0x1 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x20002012                __lock___atexit_recursive_mutex
+ .bss.__lock___sfp_recursive_mutex
+                0x20002013        0x1 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+                0x20002013                __lock___sfp_recursive_mutex
+ .bss.errno     0x20002014        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+                0x20002014                errno
+ .bss.heap_end.0
+                0x20002018        0x4 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+ *(COMMON)
+                0x2000201c                        . = ALIGN (0x4)
+                0x2000201c                        _ebss = .
+                0x2000201c                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+
+.stack          0x20002020     0x3000 load address 0x0801c084
+ .stack         0x20002020     0x3000 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+                0x20002020                __StackLimit
+                0x20005020                __StackTop
+                0x20005020                __initial_sp
+
+.heap           0x20005020        0x0 load address 0x0801c084
+ .heap          0x20005020        0x0 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
+LOAD build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
+LOAD build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
+LOAD build\App/main.o
+LOAD build\App/AppAlarm.o
+LOAD build\App/AppDtmf.o
+LOAD build\App/AppFm.o
+LOAD build\App/AppMain.o
+LOAD build\App/AppMenu.o
+LOAD build\App/AppMoni.o
+LOAD build\App/AppScan.o
+LOAD build\App/AppScanQT.o
+LOAD build\App/AppSearch.o
+LOAD build\App/AppTask.o
+LOAD build\App/AppWeather.o
+LOAD build\App/Battery.o
+LOAD build\App/DualStandby.o
+LOAD build\BSP/Board.o
+LOAD build\BSP/BoardFun.o
+LOAD build\BSP/bt32f0x_it.o
+LOAD build\Common/BitMap.o
+LOAD build\Common/Delay.o
+LOAD build\Common/Globe.o
+LOAD build\Common/assert_failed_stub.o
+LOAD build\Core/Functions.o
+LOAD build\Core/Radio.o
+LOAD build\Core/RadioTask.o
+LOAD build\CPS/ProgromFlash.o
+LOAD build\Driver/crc.o
+LOAD build\Driver/DevBK4819.o
+LOAD build\Driver/DevBK4819Data.o
+LOAD build\Driver/FlashFont.o
+LOAD build\Driver/key_ptt.o
+LOAD build\Driver/keyboard.o
+LOAD build\Driver/NorFlash.o
+LOAD build\Driver/RadioDataReset.o
+LOAD build\Driver/RadioDataStorage.o
+LOAD build\Driver/Rda5807.o
+LOAD build\Driver/st7735s.o
+LOAD build\Driver/Systick.o
+LOAD build\Gui/DisplayBattery.o
+LOAD build\Gui/DisplayDtmf.o
+LOAD build\Gui/DisplayFm.o
+LOAD build\Gui/DisplayInputbox.o
+LOAD build\Gui/DisplayMain.o
+LOAD build\Gui/DisplayMenu.o
+LOAD build\Gui/DisplayPowerOn.o
+LOAD build\Gui/DisplayScanQT.o
+LOAD build\Gui/DisplaySearch.o
+LOAD build\Gui/DisplayWeather.o
+LOAD build\Gui/LcdFillDot.o
+LOAD build\Interface/i2c.o
+LOAD build\Voice/Beep.o
+LOAD build\Voice/VoiceBroadcast.o
+LOAD build\Libraries/CMSIS/Device/startup_bt32f0x.o
+START GROUP
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+END GROUP
+START GROUP
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a
+END GROUP
+START GROUP
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a
+END GROUP
+OUTPUT(build\firmware.elf elf32-littlearm)
+LOAD linker stubs
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
+LOAD D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a
+
+.comment        0x00000000       0x39
+ .comment       0x00000000       0x39 build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+                                 0x3a (size before relaxing)
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
+ .comment       0x00000039       0x3a build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
+ .comment       0x00000039       0x3a build\App/main.o
+ .comment       0x00000039       0x3a build\App/AppAlarm.o
+ .comment       0x00000039       0x3a build\App/AppDtmf.o
+ .comment       0x00000039       0x3a build\App/AppFm.o
+ .comment       0x00000039       0x3a build\App/AppMain.o
+ .comment       0x00000039       0x3a build\App/AppMenu.o
+ .comment       0x00000039       0x3a build\App/AppMoni.o
+ .comment       0x00000039       0x3a build\App/AppScan.o
+ .comment       0x00000039       0x3a build\App/AppScanQT.o
+ .comment       0x00000039       0x3a build\App/AppSearch.o
+ .comment       0x00000039       0x3a build\App/AppTask.o
+ .comment       0x00000039       0x3a build\App/AppWeather.o
+ .comment       0x00000039       0x3a build\App/Battery.o
+ .comment       0x00000039       0x3a build\App/DualStandby.o
+ .comment       0x00000039       0x3a build\BSP/Board.o
+ .comment       0x00000039       0x3a build\BSP/BoardFun.o
+ .comment       0x00000039       0x3a build\BSP/bt32f0x_it.o
+ .comment       0x00000039       0x3a build\Common/BitMap.o
+ .comment       0x00000039       0x3a build\Common/Delay.o
+ .comment       0x00000039       0x3a build\Common/Globe.o
+ .comment       0x00000039       0x3a build\Common/assert_failed_stub.o
+ .comment       0x00000039       0x3a build\Core/Functions.o
+ .comment       0x00000039       0x3a build\Core/Radio.o
+ .comment       0x00000039       0x3a build\Core/RadioTask.o
+ .comment       0x00000039       0x3a build\CPS/ProgromFlash.o
+ .comment       0x00000039       0x3a build\Driver/crc.o
+ .comment       0x00000039       0x3a build\Driver/DevBK4819.o
+ .comment       0x00000039       0x3a build\Driver/DevBK4819Data.o
+ .comment       0x00000039       0x3a build\Driver/FlashFont.o
+ .comment       0x00000039       0x3a build\Driver/key_ptt.o
+ .comment       0x00000039       0x3a build\Driver/keyboard.o
+ .comment       0x00000039       0x3a build\Driver/NorFlash.o
+ .comment       0x00000039       0x3a build\Driver/RadioDataReset.o
+ .comment       0x00000039       0x3a build\Driver/RadioDataStorage.o
+ .comment       0x00000039       0x3a build\Driver/Rda5807.o
+ .comment       0x00000039       0x3a build\Driver/st7735s.o
+ .comment       0x00000039       0x3a build\Driver/Systick.o
+ .comment       0x00000039       0x3a build\Gui/DisplayBattery.o
+ .comment       0x00000039       0x3a build\Gui/DisplayDtmf.o
+ .comment       0x00000039       0x3a build\Gui/DisplayFm.o
+ .comment       0x00000039       0x3a build\Gui/DisplayInputbox.o
+ .comment       0x00000039       0x3a build\Gui/DisplayMain.o
+ .comment       0x00000039       0x3a build\Gui/DisplayMenu.o
+ .comment       0x00000039       0x3a build\Gui/DisplayPowerOn.o
+ .comment       0x00000039       0x3a build\Gui/DisplayScanQT.o
+ .comment       0x00000039       0x3a build\Gui/DisplaySearch.o
+ .comment       0x00000039       0x3a build\Gui/DisplayWeather.o
+ .comment       0x00000039       0x3a build\Gui/LcdFillDot.o
+ .comment       0x00000039       0x3a build\Interface/i2c.o
+ .comment       0x00000039       0x3a build\Voice/Beep.o
+ .comment       0x00000039       0x3a build\Voice/VoiceBroadcast.o
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+ .comment       0x00000039       0x3a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_adc.o
+ .ARM.attributes
+                0x0000002c       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_comp.o
+ .ARM.attributes
+                0x00000058       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_crc.o
+ .ARM.attributes
+                0x00000084       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_dbgmcu.o
+ .ARM.attributes
+                0x000000b0       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_divqsrt.o
+ .ARM.attributes
+                0x000000dc       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_dma.o
+ .ARM.attributes
+                0x00000108       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_exti.o
+ .ARM.attributes
+                0x00000134       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_flash.o
+ .ARM.attributes
+                0x00000160       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_gpio.o
+ .ARM.attributes
+                0x0000018c       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_i2c.o
+ .ARM.attributes
+                0x000001b8       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_iwdg.o
+ .ARM.attributes
+                0x000001e4       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_misc.o
+ .ARM.attributes
+                0x00000210       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_opa.o
+ .ARM.attributes
+                0x0000023c       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_pwr.o
+ .ARM.attributes
+                0x00000268       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_rcc.o
+ .ARM.attributes
+                0x00000294       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_rtc.o
+ .ARM.attributes
+                0x000002c0       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_spi.o
+ .ARM.attributes
+                0x000002ec       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_syscfg.o
+ .ARM.attributes
+                0x00000318       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_tim.o
+ .ARM.attributes
+                0x00000344       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_usart.o
+ .ARM.attributes
+                0x00000370       0x2c build\Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.o
+ .ARM.attributes
+                0x0000039c       0x2c build\Libraries/StdPeriph_Driver/src/system_bt32f0x.o
+ .ARM.attributes
+                0x000003c8       0x2c build\App/main.o
+ .ARM.attributes
+                0x000003f4       0x2c build\App/AppAlarm.o
+ .ARM.attributes
+                0x00000420       0x2c build\App/AppDtmf.o
+ .ARM.attributes
+                0x0000044c       0x2c build\App/AppFm.o
+ .ARM.attributes
+                0x00000478       0x2c build\App/AppMain.o
+ .ARM.attributes
+                0x000004a4       0x2c build\App/AppMenu.o
+ .ARM.attributes
+                0x000004d0       0x2c build\App/AppMoni.o
+ .ARM.attributes
+                0x000004fc       0x2c build\App/AppScan.o
+ .ARM.attributes
+                0x00000528       0x2c build\App/AppScanQT.o
+ .ARM.attributes
+                0x00000554       0x2c build\App/AppSearch.o
+ .ARM.attributes
+                0x00000580       0x2c build\App/AppTask.o
+ .ARM.attributes
+                0x000005ac       0x2c build\App/AppWeather.o
+ .ARM.attributes
+                0x000005d8       0x2c build\App/Battery.o
+ .ARM.attributes
+                0x00000604       0x2c build\App/DualStandby.o
+ .ARM.attributes
+                0x00000630       0x2c build\BSP/Board.o
+ .ARM.attributes
+                0x0000065c       0x2c build\BSP/BoardFun.o
+ .ARM.attributes
+                0x00000688       0x2c build\BSP/bt32f0x_it.o
+ .ARM.attributes
+                0x000006b4       0x2c build\Common/BitMap.o
+ .ARM.attributes
+                0x000006e0       0x2c build\Common/Delay.o
+ .ARM.attributes
+                0x0000070c       0x2c build\Common/Globe.o
+ .ARM.attributes
+                0x00000738       0x2c build\Common/assert_failed_stub.o
+ .ARM.attributes
+                0x00000764       0x2c build\Core/Functions.o
+ .ARM.attributes
+                0x00000790       0x2c build\Core/Radio.o
+ .ARM.attributes
+                0x000007bc       0x2c build\Core/RadioTask.o
+ .ARM.attributes
+                0x000007e8       0x2c build\CPS/ProgromFlash.o
+ .ARM.attributes
+                0x00000814       0x2c build\Driver/crc.o
+ .ARM.attributes
+                0x00000840       0x2c build\Driver/DevBK4819.o
+ .ARM.attributes
+                0x0000086c       0x2c build\Driver/DevBK4819Data.o
+ .ARM.attributes
+                0x00000898       0x2c build\Driver/FlashFont.o
+ .ARM.attributes
+                0x000008c4       0x2c build\Driver/key_ptt.o
+ .ARM.attributes
+                0x000008f0       0x2c build\Driver/keyboard.o
+ .ARM.attributes
+                0x0000091c       0x2c build\Driver/NorFlash.o
+ .ARM.attributes
+                0x00000948       0x2c build\Driver/RadioDataReset.o
+ .ARM.attributes
+                0x00000974       0x2c build\Driver/RadioDataStorage.o
+ .ARM.attributes
+                0x000009a0       0x2c build\Driver/Rda5807.o
+ .ARM.attributes
+                0x000009cc       0x2c build\Driver/st7735s.o
+ .ARM.attributes
+                0x000009f8       0x2c build\Driver/Systick.o
+ .ARM.attributes
+                0x00000a24       0x2c build\Gui/DisplayBattery.o
+ .ARM.attributes
+                0x00000a50       0x2c build\Gui/DisplayDtmf.o
+ .ARM.attributes
+                0x00000a7c       0x2c build\Gui/DisplayFm.o
+ .ARM.attributes
+                0x00000aa8       0x2c build\Gui/DisplayInputbox.o
+ .ARM.attributes
+                0x00000ad4       0x2c build\Gui/DisplayMain.o
+ .ARM.attributes
+                0x00000b00       0x2c build\Gui/DisplayMenu.o
+ .ARM.attributes
+                0x00000b2c       0x2c build\Gui/DisplayPowerOn.o
+ .ARM.attributes
+                0x00000b58       0x2c build\Gui/DisplayScanQT.o
+ .ARM.attributes
+                0x00000b84       0x2c build\Gui/DisplaySearch.o
+ .ARM.attributes
+                0x00000bb0       0x2c build\Gui/DisplayWeather.o
+ .ARM.attributes
+                0x00000bdc       0x2c build\Gui/LcdFillDot.o
+ .ARM.attributes
+                0x00000c08       0x2c build\Interface/i2c.o
+ .ARM.attributes
+                0x00000c34       0x2c build\Voice/Beep.o
+ .ARM.attributes
+                0x00000c60       0x2c build\Voice/VoiceBroadcast.o
+ .ARM.attributes
+                0x00000c8c       0x21 build\Libraries/CMSIS/Device/startup_bt32f0x.o
+ .ARM.attributes
+                0x00000cad       0x1e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+ .ARM.attributes
+                0x00000ccb       0x1e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x00000ce9       0x1e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .ARM.attributes
+                0x00000d07       0x1e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .ARM.attributes
+                0x00000d25       0x1e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000d43       0x1e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000d61       0x1e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000d7f       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atoi.o)
+ .ARM.attributes
+                0x00000dab       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-atol.o)
+ .ARM.attributes
+                0x00000dd7       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strtol.o)
+ .ARM.attributes
+                0x00000e03       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-ctype_.o)
+ .ARM.attributes
+                0x00000e2f       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sprintf.o)
+ .ARM.attributes
+                0x00000e5b       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcmp.o)
+ .ARM.attributes
+                0x00000e87       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000eb3       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strncpy.o)
+ .ARM.attributes
+                0x00000edf       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000f0b       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-errno.o)
+ .ARM.attributes
+                0x00000f37       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strcpy.o)
+ .ARM.attributes
+                0x00000f63       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000f8f       0x1c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-strlen.o)
+ .ARM.attributes
+                0x00000fab       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x00000fd7       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00001003       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memmove.o)
+ .ARM.attributes
+                0x0000102f       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000105b       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00001087       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x000010b3       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x000010df       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reallocr.o)
+ .ARM.attributes
+                0x0000110b       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00001137       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00001163       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-msizer.o)
+ .ARM.attributes
+                0x0000118f       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x000011bb       0x2c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libnosys.a(sbrk.o)
+
+.debug_line     0x00000000      0x247
+ .debug_line    0x00000000       0x52 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+ .debug_line    0x00000052       0x52 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .debug_line    0x000000a4       0x53 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .debug_line    0x000000f7       0x53 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .debug_line    0x0000014a       0x56 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_line    0x000001a0       0x5d D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_line    0x000001fd       0x4a D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_line_str
+                0x00000000      0x112
+ .debug_line_str
+                0x00000000      0x112 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+ .debug_line_str
+                0x00000112      0x112 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .debug_line_str
+                0x00000112      0x112 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .debug_line_str
+                0x00000112      0x112 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .debug_line_str
+                0x00000112      0x112 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_line_str
+                0x00000112      0x112 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_line_str
+                0x00000112      0x112 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_info     0x00000000      0x17c
+ .debug_info    0x00000000       0x31 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+ .debug_info    0x00000031       0x31 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .debug_info    0x00000062       0x31 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .debug_info    0x00000093       0x31 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .debug_info    0x000000c4       0x3e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_info    0x00000102       0x3e D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_info    0x00000140       0x3c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_abbrev   0x00000000      0x116
+ .debug_abbrev  0x00000000       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+ .debug_abbrev  0x00000028       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .debug_abbrev  0x00000050       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .debug_abbrev  0x00000078       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .debug_abbrev  0x000000a0       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000000c8       0x28 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_abbrev  0x000000f0       0x26 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_aranges  0x00000000       0xe0
+ .debug_aranges
+                0x00000000       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+ .debug_aranges
+                0x00000020       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .debug_aranges
+                0x00000040       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .debug_aranges
+                0x00000060       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .debug_aranges
+                0x00000080       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x000000a0       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x000000c0       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_str      0x00000000      0x1c8
+ .debug_str     0x00000000      0x1c8 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_sqi.o)
+                                0x136 (size before relaxing)
+ .debug_str     0x000001c8      0x136 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uqi.o)
+ .debug_str     0x000001c8      0x136 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_shi.o)
+ .debug_str     0x000001c8      0x136 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_thumb1_case_uhi.o)
+ .debug_str     0x000001c8      0x13b D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_str     0x000001c8      0x139 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)
+ .debug_str     0x000001c8      0x13c D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000       0x40
+ .debug_frame   0x00000000       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000020       0x20 D:/radio px/toolchain/xpack-arm-none-eabi-gcc-13.2.1-1.1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_divsi3.o)

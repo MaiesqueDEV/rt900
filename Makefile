@@ -64,6 +64,7 @@ C_SOURCES = \
     Common/BitMap.c \
     Common/Delay.c \
     Common/Globe.c \
+    Common/assert_failed_stub.c \
     Core/Functions.c \
     Core/Radio.c \
     Core/RadioTask.c \

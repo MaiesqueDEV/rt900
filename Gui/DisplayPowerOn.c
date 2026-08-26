@@ -9,11 +9,11 @@ void UI_DisplayPowerOn(void)
     // Exibe "MAIESQUE" em destaque grande (Amarelo 0xFFE0 em fundo Preto)
     LCD_DisplayText(48, 35, (uint08_t *)"MAIESQUE", FONTSIZE_16x16, 0xFFE0, COLOR_BACKGROUND, 0);
 
-    // Exibe "BINTOLK RT900" (Ciano)
-    LCD_DisplayText(40, 65, (uint08_t *)"BINTOLK RT900", FONTSIZE_6x12, 0x07FF, COLOR_BACKGROUND, 0);
+    // Exibe "BINTOLK RT900" (Ciano 0x07FF)
+    LCD_DisplayText(40, 65, (uint08_t *)"BINTOLK RT900", FONTSIZE_12x12, 0x07FF, COLOR_BACKGROUND, 0);
 
-    // Exibe "CUSTOM FIRMWARE" (Verde)
-    LCD_DisplayText(34, 85, (uint08_t *)"CUSTOM FIRMWARE", FONTSIZE_6x12, 0x07E0, COLOR_BACKGROUND, 0);
+    // Exibe "CUSTOM FIRMWARE" (Verde 0x07E0)
+    LCD_DisplayText(34, 85, (uint08_t *)"CUSTOM FIRMWARE", FONTSIZE_12x12, 0x07E0, COLOR_BACKGROUND, 0);
 
     // Mantém a mensagem de abertura na tela por 1.5 segundos ao ligar
     DelayMs(1500);
