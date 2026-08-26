@@ -9,7 +9,7 @@ extern void UI_DisplayPowerOn(void)
     LCD_ClearArea(0, 0, 160, 128, 0x0000);
     LcdBackLightSwitch(LED_ON);
 
-    // Exibe "MAIESQUE" em destaque grande (Amarelo 0xFFE0 em fundo Preto 0x0000)
+    // Exibe "MAIESQUE1" em destaque grande (Amarelo 0xFFE0 em fundo Preto 0x0000)
     LCD_DisplayText(48, 35, (uint08_t *)"MAIESQUE", FONTSIZE_16x16, 0xFFE0, 0x0000, 0);
 
     // Exibe "BINTOLK RT900" (Ciano 0x07FF)
