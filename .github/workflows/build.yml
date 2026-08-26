@@ -13,16 +13,14 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Install ARM Toolchain & Make
-        shell: powershell
-        run: |
-          choco install gcc-arm-embedded -y
-          choco install make -y
+      - name: Setup ARM GCC & Run Make
+        uses: dillon-sm/arm-none-eabi-action@v1
+        with:
+          command: 'make'
 
-      - name: Build Firmware (.BTU File)
+      - name: Encrypt Firmware to .BTU
         shell: cmd
         run: |
-          make
           if exist .\build\firmware.hex (
             copy /Y .\build\firmware.hex .\firmware.hex
             .\Tools\ARCEncryptTools.exe .\firmware.hex QzBtDzKjYxGsWalkieTalkieBt8000OpenDate20241202

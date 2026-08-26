@@ -171,29 +171,25 @@ DEPS = $(OBJS:.o=.d)
 
 # Default target
 all: $(BUILD_DIR)/$(TARGET).bin
-	@echo "Build complete."
-	@echo "Cleaning up $(TARGET).elf and $(TARGET).map..."
-	-cmd /c if exist "$(WIN_BUILD_DIR)\$(TARGET).elf" del "$(WIN_BUILD_DIR)\$(TARGET).elf"
-	-cmd /c if exist "$(WIN_BUILD_DIR)\$(TARGET).map" del "$(WIN_BUILD_DIR)\$(TARGET).map"
+	@echo Build complete.
 
 # Target to create all necessary directories using cmd.exe syntax
 create_dirs_target:
-	@echo Creating directories...
-	cmd /c if not exist "$(WIN_BUILD_DIR)" mkdir "$(WIN_BUILD_DIR)"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\App" mkdir "$(WIN_BUILD_DIR)\App"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\BSP" mkdir "$(WIN_BUILD_DIR)\BSP"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Common" mkdir "$(WIN_BUILD_DIR)\Common"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Core" mkdir "$(WIN_BUILD_DIR)\Core"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\CPS" mkdir "$(WIN_BUILD_DIR)\CPS"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Driver" mkdir "$(WIN_BUILD_DIR)\Driver"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Gui" mkdir "$(WIN_BUILD_DIR)\Gui"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Interface" mkdir "$(WIN_BUILD_DIR)\Interface"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Libraries" mkdir "$(WIN_BUILD_DIR)\Libraries"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Libraries\CMSIS" mkdir "$(WIN_BUILD_DIR)\Libraries\CMSIS"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Libraries\CMSIS\Device" mkdir "$(WIN_BUILD_DIR)\Libraries\CMSIS\Device"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Libraries\StdPeriph_Driver" mkdir "$(WIN_BUILD_DIR)\Libraries\StdPeriph_Driver"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Libraries\StdPeriph_Driver\src" mkdir "$(WIN_BUILD_DIR)\Libraries\StdPeriph_Driver\src"
-	cmd /c if not exist "$(WIN_BUILD_DIR)\Voice" mkdir "$(WIN_BUILD_DIR)\Voice"
+	@if not exist "$(WIN_BUILD_DIR)" mkdir "$(WIN_BUILD_DIR)"
+	@if not exist "$(WIN_BUILD_DIR)\App" mkdir "$(WIN_BUILD_DIR)\App"
+	@if not exist "$(WIN_BUILD_DIR)\BSP" mkdir "$(WIN_BUILD_DIR)\BSP"
+	@if not exist "$(WIN_BUILD_DIR)\Common" mkdir "$(WIN_BUILD_DIR)\Common"
+	@if not exist "$(WIN_BUILD_DIR)\Core" mkdir "$(WIN_BUILD_DIR)\Core"
+	@if not exist "$(WIN_BUILD_DIR)\CPS" mkdir "$(WIN_BUILD_DIR)\CPS"
+	@if not exist "$(WIN_BUILD_DIR)\Driver" mkdir "$(WIN_BUILD_DIR)\Driver"
+	@if not exist "$(WIN_BUILD_DIR)\Gui" mkdir "$(WIN_BUILD_DIR)\Gui"
+	@if not exist "$(WIN_BUILD_DIR)\Interface" mkdir "$(WIN_BUILD_DIR)\Interface"
+	@if not exist "$(WIN_BUILD_DIR)\Libraries" mkdir "$(WIN_BUILD_DIR)\Libraries"
+	@if not exist "$(WIN_BUILD_DIR)\Libraries\CMSIS" mkdir "$(WIN_BUILD_DIR)\Libraries\CMSIS"
+	@if not exist "$(WIN_BUILD_DIR)\Libraries\CMSIS\Device" mkdir "$(WIN_BUILD_DIR)\Libraries\CMSIS\Device"
+	@if not exist "$(WIN_BUILD_DIR)\Libraries\StdPeriph_Driver" mkdir "$(WIN_BUILD_DIR)\Libraries\StdPeriph_Driver"
+	@if not exist "$(WIN_BUILD_DIR)\Libraries\StdPeriph_Driver\src" mkdir "$(WIN_BUILD_DIR)\Libraries\StdPeriph_Driver\src"
+	@if not exist "$(WIN_BUILD_DIR)\Voice" mkdir "$(WIN_BUILD_DIR)\Voice"
 
 # Compile C sources to object files
 $(BUILD_DIR)/%.o: %.c Makefile | create_dirs_target
