@@ -12,7 +12,7 @@ SIZE = arm-none-eabi-size
 BUILD_DIR = build
 
 # C flags
-CFLAGS = -Os -Wall -mcpu=cortex-m1 -fno-builtin -fshort-enums -fno-delete-null-pointer-checks -std=c11 -MMD -MP -flto
+CFLAGS = -Os -Wall -mcpu=cortex-m0 -mthumb -fno-builtin -fshort-enums -fno-delete-null-pointer-checks -std=c11 -MMD -MP
 CFLAGS += -DUSE_FULL_ASSERT=1
 CFLAGS += -DUSE_STDPERIPH_DRIVER
 CFLAGS += -Wno-unused-variable
@@ -25,10 +25,10 @@ CFLAGS += -Wno-unused-but-set-variable
 CFLAGS += -D__nop=__NOP
 
 # Assembler flags
-ASFLAGS = -mcpu=cortex-m1 -x assembler-with-cpp
+ASFLAGS = -mcpu=cortex-m0 -mthumb -x assembler-with-cpp
 
 # Linker flags
-LDFLAGS = -mcpu=cortex-m1 -nostartfiles -Wl,-T,firmware.ld -flto
+LDFLAGS = -mcpu=cortex-m0 -mthumb -nostartfiles -Wl,-T,firmware.ld
 LDFLAGS += -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref
 LDFLAGS += -specs=nano.specs -specs=nosys.specs
 
