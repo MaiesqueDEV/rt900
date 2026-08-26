@@ -213,10 +213,11 @@ $(BUILD_DIR)/$(TARGET).elf: $(OBJS) firmware.ld Makefile
 	@$(SIZE) $@
 	@echo "---------------------"
 
-# Create binary file from ELF file
+# Create binary and hex file from ELF file
 $(BUILD_DIR)/$(TARGET).bin: $(BUILD_DIR)/$(TARGET).elf Makefile
 	@echo "OBJCOPY $@"
 	@$(OBJCOPY) -O binary $< $@
+	@$(OBJCOPY) -O ihex $< $(BUILD_DIR)/$(TARGET).hex
 
 # Clean build artifacts
 clean:

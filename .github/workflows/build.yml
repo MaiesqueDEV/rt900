@@ -21,20 +21,21 @@ jobs:
           choco install gcc-arm-embedded -y
           choco install make -y
 
-      - name: Build Firmware Binary
+      - name: Build Firmware (.BTU File)
         shell: cmd
         run: |
           make
-          if exist .\build\firmware.bin (
-            copy /Y .\build\firmware.bin .\firmware.hex
-            .\Tools\ARCEncryptTools.exe firmware.hex QzBtDzKjYxGsWalkieTalkieBt8000OpenDate20241202
+          if exist .\build\firmware.hex (
+            copy /Y .\build\firmware.hex .\firmware.hex
+            .\Tools\ARCEncryptTools.exe .\firmware.hex QzBtDzKjYxGsWalkieTalkieBt8000OpenDate20241202
+            if exist .\firmware.btu copy /Y .\firmware.btu .\RT900_MAIESQUE_CUSTOM.BTU
           )
 
-      - name: Upload Compiled Firmware Artifact
+      - name: Upload Compiled Firmware (.BTU) Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: RT900_Bintolk_Custom_Firmware
+          name: RT900_Bintolk_Custom_Firmware_BTU
           path: |
+            *.btu
+            *.BTU
             firmware.bin
-            firmware.hex
-            build/firmware.bin
