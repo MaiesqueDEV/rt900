@@ -1,42 +1,35 @@
-/* Generic Linker Script for Cortex-M0 (e.g., BT32F0x series) */
+/* Linker script para Radtel RT-900 / Bintolk - BT32F0x (Cortex-M0) */
+/* Baseado no .sct oficial: Flash comeca em 0x08003000 (apos bootloader de 12KB) */
 
-/* Entry Point */
 ENTRY(Reset_Handler)
 
-/* Memory Regions */
 MEMORY
 {
-  FLASH (rx)      : ORIGIN = 0x08000000, LENGTH = 256K
-  SRAM (rwx)      : ORIGIN = 0x20000000, LENGTH = 32K
+  FLASH (rx)  : ORIGIN = 0x08003000, LENGTH = 0x40000   /* 256KB - reserva bootloader */
+  SRAM  (rwx) : ORIGIN = 0x200000C0, LENGTH = 0x8000    /* 32KB RAM */
 }
 
-/* Highest address of the user mode stack */
-_estack = ORIGIN(SRAM) + LENGTH(SRAM); /* Stack grows down from top of SRAM */
+_estack = ORIGIN(SRAM) + LENGTH(SRAM);
 
-/* Sections */
 SECTIONS
 {
-  /* The startup code goes first in FLASH */
   .isr_vector :
   {
     . = ALIGN(4);
-    KEEP(*(.isr_vector)) /* Startup code */
+    KEEP(*(.isr_vector))
     . = ALIGN(4);
   } >FLASH
 
-  /* Program code and read-only data */
   .text :
   {
     . = ALIGN(4);
-    *(.text)           /* .text sections (code) */
-    *(.text*)          /* .text* sections (code) */
-    *(.glue_7)         /* glue arm to thumb */
-    *(.glue_7t)        /* glue thumb to arm */
+    *(.text)
+    *(.text*)
+    *(.glue_7)
+    *(.glue_7t)
     *(.eh_frame)
-
-    KEEP (*(.init))
-    KEEP (*(.fini))
-
+    KEEP(*(.init))
+    KEEP(*(.fini))
     . = ALIGN(4);
     _etext = .;
   } >FLASH
@@ -44,62 +37,38 @@ SECTIONS
   .rodata :
   {
     . = ALIGN(4);
-    *(.rodata)         /* .rodata sections (constants, strings, etc.) */
-    *(.rodata*)        /* .rodata* sections (constants, strings, etc.) */
+    *(.rodata)
+    *(.rodata*)
     . = ALIGN(4);
   } >FLASH
 
-  /* Initialized data sections goes into RAM, load LMA copy from FLASH */
   .data :
   {
     . = ALIGN(4);
-    _sdata = .;        /* create a global symbol at data start */
-    *(.data)           /* .data sections */
-    *(.data*)          /* .data* sections */
+    _sdata = .;
+    *(.data)
+    *(.data*)
     . = ALIGN(4);
-    _edata = .;        /* define a global symbol at data end */
-  } >SRAM AT> FLASH
+    _edata = .;
+  } >SRAM AT>FLASH
 
-  /* Uninitialized data section */
+  _sidata = LOADADDR(.data);
+
   .bss :
   {
     . = ALIGN(4);
     _sbss = .;
-    __bss_start__ = _sbss;
     *(.bss)
     *(.bss*)
     *(COMMON)
     . = ALIGN(4);
     _ebss = .;
-    __bss_end__ = _ebss;
-    PROVIDE(end = _ebss);
   } >SRAM
 
-  /* Heap section */
-  .heap (COPY):
-  {
-    . = ALIGN(8);
-    __HeapBase = .;
-    KEEP(*(.heap))
-    __HeapLimit = .;
-  } >SRAM
-  
-  /* Stack section */
-  .stack (COPY):
-  {
-    . = ALIGN(8);
-    __StackLimit = .;
-    KEEP(*(.stack))
-    __StackTop = .;
-  } >SRAM
-  
-  /* Remove information from the standard libraries */
   /DISCARD/ :
   {
-    libc.a ( * )
-    libm.a ( * )
-    libgcc.a ( * )
+    libc.a (*)
+    libm.a (*)
+    libgcc.a (*)
   }
-
-  .ARM.attributes 0 : { *(.ARM.attributes) }
 }

@@ -1,54 +1,26 @@
-# Target name
 TARGET = firmware
-
-# Toolchain definitions
-CC = arm-none-eabi-gcc
-AS = arm-none-eabi-gcc
-LD = arm-none-eabi-gcc
+CC      = arm-none-eabi-gcc
 OBJCOPY = arm-none-eabi-objcopy
-SIZE = arm-none-eabi-size
-
-# Build directory
+SIZE    = arm-none-eabi-size
 BUILD_DIR = build
 
-# C flags
-CFLAGS = -Os -Wall -mcpu=cortex-m0 -mthumb -fno-builtin -fshort-enums -fno-delete-null-pointer-checks -std=c11 -MMD -MP
-CFLAGS += -DUSE_FULL_ASSERT=1
-CFLAGS += -DUSE_STDPERIPH_DRIVER
-CFLAGS += -Wno-unused-variable
-CFLAGS += -Wno-maybe-uninitialized
-CFLAGS += -Wno-format
-CFLAGS += -Wno-switch
-CFLAGS += -Wno-attributes
-CFLAGS += -Wno-pointer-sign
-CFLAGS += -Wno-unused-but-set-variable
+CFLAGS  = -Os -Wall -mcpu=cortex-m0 -mthumb -fno-builtin -fshort-enums
+CFLAGS += -fno-delete-null-pointer-checks -std=c11 -MMD -MP
+CFLAGS += -DUSE_FULL_ASSERT=1 -DUSE_STDPERIPH_DRIVER
+CFLAGS += -Wno-unused-variable -Wno-maybe-uninitialized -Wno-format
+CFLAGS += -Wno-switch -Wno-attributes -Wno-pointer-sign
+CFLAGS += -Wno-unused-but-set-variable -Wno-implicit-function-declaration
 CFLAGS += -D__nop=__NOP
 
-# Assembler flags
-ASFLAGS = -mcpu=cortex-m0 -mthumb -x assembler-with-cpp
-
-# Linker flags
-LDFLAGS = -mcpu=cortex-m0 -mthumb -nostartfiles -Wl,-T,firmware.ld
-LDFLAGS += -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref
+LDFLAGS  = -mcpu=cortex-m0 -mthumb -nostartfiles
+LDFLAGS += -Wl,-T,firmware.ld -Wl,-Map=$(BUILD_DIR)/$(TARGET).map
 LDFLAGS += -specs=nano.specs -specs=nosys.specs
 
-# Include directories
-INCLUDES = \
-    -IApp \
-    -IBSP \
-    -ICommon \
-    -ICore \
-    -ICPS \
-    -IDriver \
-    -IGui \
-    -IInterface \
-    -ILibraries \
-    -ILibraries/CMSIS/Include \
-    -ILibraries/StdPeriph_Driver/inc \
-    -IVoice \
-    -I.
+INCLUDES  = -IApp -IBSP -ICommon -ICore -ICPS -IDriver
+INCLUDES += -IGui -IInterface -ILibraries -IVoice -I.
+INCLUDES += -ILibraries/CMSIS/Include
+INCLUDES += -ILibraries/StdPeriph_Driver/inc
 
-# Source files
 C_SOURCES = \
     Libraries/StdPeriph_Driver/src/bt32f0x_adc.c \
     Libraries/StdPeriph_Driver/src/bt32f0x_comp.c \
@@ -73,21 +45,6 @@ C_SOURCES = \
     Libraries/StdPeriph_Driver/src/bt32f0x_wwdg.c \
     Libraries/StdPeriph_Driver/src/system_bt32f0x.c \
     App/main.c \
-    BSP/Board.c \
-    BSP/BoardFun.c \
-    BSP/bt32f0x_it.c \
-    Driver/crc.c \
-    Driver/DevBK4819.c \
-    Driver/DevBK4819Data.c \
-    Driver/FlashFont.c \
-    Driver/key_ptt.c \
-    Driver/keyboard.c \
-    Driver/NorFlash.c \
-    Driver/RadioDataReset.c \
-    Driver/RadioDataStorage.c \
-    Driver/Rda5807.c \
-    Driver/st7735s.c \
-    Driver/Systick.c \
     App/AppAlarm.c \
     App/AppDtmf.c \
     App/AppFm.c \
@@ -101,14 +58,28 @@ C_SOURCES = \
     App/AppWeather.c \
     App/Battery.c \
     App/DualStandby.c \
+    BSP/Board.c \
+    BSP/BoardFun.c \
+    BSP/bt32f0x_it.c \
     Common/BitMap.c \
     Common/Delay.c \
     Common/Globe.c \
-    Common/assert_failed_stub.c \
     Core/Functions.c \
     Core/Radio.c \
     Core/RadioTask.c \
     CPS/ProgromFlash.c \
+    Driver/crc.c \
+    Driver/DevBK4819.c \
+    Driver/DevBK4819Data.c \
+    Driver/FlashFont.c \
+    Driver/key_ptt.c \
+    Driver/keyboard.c \
+    Driver/NorFlash.c \
+    Driver/RadioDataReset.c \
+    Driver/RadioDataStorage.c \
+    Driver/Rda5807.c \
+    Driver/st7735s.c \
+    Driver/Systick.c \
     Gui/DisplayBattery.c \
     Gui/DisplayDtmf.c \
     Gui/DisplayFm.c \
@@ -124,14 +95,12 @@ C_SOURCES = \
     Voice/Beep.c \
     Voice/VoiceBroadcast.c
 
-S_SOURCES = \
-    Libraries/CMSIS/Device/startup_bt32f0x.s
+S_SOURCES = Libraries/CMSIS/Device/startup_bt32f0x.s
 
-C_OBJS = $(patsubst %.c, $(BUILD_DIR)/%.o, $(C_SOURCES))
-S_OBJS = $(patsubst %.s, $(BUILD_DIR)/%.o, $(S_SOURCES))
-OBJS = $(C_OBJS) $(S_OBJS)
-
-DEPS = $(OBJS:.o=.d)
+C_OBJS = $(patsubst %.c,$(BUILD_DIR)/%.o,$(C_SOURCES))
+S_OBJS = $(patsubst %.s,$(BUILD_DIR)/%.o,$(S_SOURCES))
+OBJS   = $(C_OBJS) $(S_OBJS)
+DEPS   = $(OBJS:.o=.d)
 
 all: $(BUILD_DIR)/$(TARGET).bin $(BUILD_DIR)/$(TARGET).hex
 
@@ -141,10 +110,10 @@ $(BUILD_DIR)/%.o: %.c
 
 $(BUILD_DIR)/%.o: %.s
 	@mkdir -p $(dir $@)
-	$(CC) $(ASFLAGS) $(INCLUDES) -c $< -o $@
+	$(CC) -mcpu=cortex-m0 -mthumb -x assembler-with-cpp $(INCLUDES) -c $< -o $@
 
 $(BUILD_DIR)/$(TARGET).elf: $(OBJS) firmware.ld
-	$(LD) $(LDFLAGS) $(OBJS) -o $@ $(LIBS)
+	$(CC) $(LDFLAGS) $(OBJS) -o $@
 	$(SIZE) $@
 
 $(BUILD_DIR)/$(TARGET).bin: $(BUILD_DIR)/$(TARGET).elf
@@ -157,3 +126,5 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 .PHONY: all clean
+
+-include $(DEPS)
