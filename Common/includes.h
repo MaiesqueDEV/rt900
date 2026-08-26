@@ -29,7 +29,7 @@
 #include "RadioDataReset.h"
 #include "RadioDataStorage.h"
 #include "Rda5807.h"
-#include "ST7735S.h"
+#include "st7735s.h"
 #include "AppMain.h"
 #include "AppMenu.h"
 #include "AppAlarm.h"
@@ -53,7 +53,6 @@
 #include "DisplayScanQT.h"
 #include "DisplaySearch.h"
 #include "DisplayWeather.h"
-#include "LcdFillDot.h"
 #include "Beep.h"
 #include "VoiceBroadcast.h"
 
