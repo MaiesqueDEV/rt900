@@ -53,6 +53,7 @@
 #include "DisplayScanQT.h"
 #include "DisplaySearch.h"
 #include "DisplayWeather.h"
+#include "LcdFillDot.h"
 #include "Beep.h"
 #include "VoiceBroadcast.h"
 
