@@ -1,4 +1,4 @@
-#include "Includes.h"
+#include "includes.h"
 
 extern void LCD_ClearArea(uint16_t posX, uint16_t posY, uint16_t width, uint16_t height, uint16_t backColor);
 extern void LCD_DisplayText(uint16_t posX, uint16_t posY, uint08_t *pString, uint08_t fontSize, uint16_t brushColor, uint16_t backColor, uint08_t divDot);
