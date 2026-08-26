@@ -7,25 +7,30 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup ARM GCC & Run Make
-        uses: dillon-sm/arm-none-eabi-action@v1
-        with:
-          command: 'make'
+      - name: Install Toolchain & Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-arm-none-eabi make mono-runtime
+
+      - name: Build Firmware
+        run: |
+          make
 
       - name: Encrypt Firmware to .BTU
-        shell: cmd
         run: |
-          if exist .\build\firmware.hex (
-            copy /Y .\build\firmware.hex .\firmware.hex
-            .\Tools\ARCEncryptTools.exe .\firmware.hex QzBtDzKjYxGsWalkieTalkieBt8000OpenDate20241202
-            if exist .\firmware.btu copy /Y .\firmware.btu .\RT900_MAIESQUE_CUSTOM.BTU
-          )
+          if [ -f build/firmware.hex ]; then
+            cp build/firmware.hex ./firmware.hex
+            mono ./Tools/ARCEncryptTools.exe ./firmware.hex QzBtDzKjYxGsWalkieTalkieBt8000OpenDate20241202
+            if [ -f firmware.btu ]; then
+              cp firmware.btu ./RT900_MAIESQUE_CUSTOM.BTU
+            fi
+          fi
 
       - name: Upload Compiled Firmware (.BTU) Artifact
         uses: actions/upload-artifact@v4
