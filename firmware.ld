@@ -1,15 +1,14 @@
-/* Linker script para Radtel RT-900 / Bintolk - BT32F0x (Cortex-M0) */
-/* Baseado no .sct oficial: Flash comeca em 0x08003000 (apos bootloader de 12KB) */
+/* Linker Script definitivo: 256KB Flash e 20KB RAM oficial com Stack Pointer 0x20004F70 */
 
 ENTRY(Reset_Handler)
 
 MEMORY
 {
-  FLASH (rx)  : ORIGIN = 0x08003000, LENGTH = 0x40000   /* 256KB */
-  SRAM  (rwx) : ORIGIN = 0x200000C0, LENGTH = 0x8000    /* 32KB RAM */
+  FLASH (rx)  : ORIGIN = 0x08003000, LENGTH = 240K
+  SRAM  (rwx) : ORIGIN = 0x200000C0, LENGTH = 0x4EB0
 }
 
-_estack = ORIGIN(SRAM) + LENGTH(SRAM);
+_estack = 0x20004F70;
 
 SECTIONS
 {
